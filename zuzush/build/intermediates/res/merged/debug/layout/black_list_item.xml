@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="72dp"
+    android:background="@color/background_white"
+    android:paddingLeft="@dimen/large_margin"
+    android:paddingRight="@dimen/large_margin">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/image_icon"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_centerVertical="true"
+        android:src="@mipmap/pic_01"
+        android:layout_marginRight="@dimen/large_margin"/>
+    <TextView
+        android:id="@+id/textName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/image_icon"
+        android:layout_marginTop="@dimen/bottom_margin"
+        android:text="一条图库"
+        android:textSize="@dimen/textHintSize"
+        android:textColor="@color/top_bar_textColor" />
+    <TextView
+        android:id="@+id/textTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/image_icon"
+        android:text="2010-09-09 12:00 加入"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="@dimen/large_margin"
+        android:textSize="@dimen/smale_textSize"
+        android:textColor="@color/textHint_color" />
+    <TextView
+        android:id="@+id/text_unbind"
+        android:layout_width="60dp"
+        android:layout_height="25dp"
+        android:background="@drawable/black_list_text_background"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:textSize="@dimen/normal_textSize"
+        android:textColor="@color/main_blue_color"
+        android:text="解除"
+        android:gravity="center" />
+</RelativeLayout>

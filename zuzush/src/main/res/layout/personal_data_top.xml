@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@color/background_white">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center_horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="已完成 "
+            android:textSize="@dimen/normal_textSize"
+            android:textColor="@color/top_bar_textColor" />
+        <TextView
+            android:id="@+id/text_progress"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="60"
+            android:textSize="24sp"
+            android:textColor="@color/main_blue_color" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="%"
+            android:textSize="@dimen/textHintSize"
+            android:textColor="@color/main_blue_color" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" 完善个人资料能提升个人信用哦 "
+            android:textSize="@dimen/normal_textSize"
+            android:textColor="@color/top_bar_textColor" />
+    </LinearLayout>
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="@android:style/Widget.ProgressBar.Horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="11dp"
+        android:layout_marginRight="@dimen/large_margin"
+        android:layout_marginLeft="@dimen/large_margin"
+        android:layout_marginTop="19dp"
+        android:max="100"
+        android:progress="55"
+        android:progressDrawable="@drawable/progress_drawable" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/divider_height"
+        android:background="@color/divider_color"
+        android:layout_marginTop="25dp" />
+    <RelativeLayout
+        android:id="@+id/rel_picture"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:paddingLeft="@dimen/large_margin"
+        android:paddingRight="@dimen/large_margin">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="图像"
+            android:textSize="@dimen/textHintSize"
+            android:textColor="@color/top_bar_textColor"
+            android:gravity="center" />
+        <ImageView
+            android:id="@+id/more_info"
+            android:layout_width="7dp"
+            android:layout_height="15dp"
+            android:src="@mipmap/more_info"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"/>
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/image_pic"
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:layout_toLeftOf="@+id/more_info"
+            android:layout_marginRight="@dimen/normal_margin"
+            android:layout_centerVertical="true"/>
+    </RelativeLayout>
+</LinearLayout>

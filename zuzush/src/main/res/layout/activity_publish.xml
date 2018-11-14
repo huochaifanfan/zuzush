@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="@color/background_white"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout style="@style/top_bar_layout">
+        <TextView
+            style="@style/top_bar_textView"
+            android:text="发布出租物品" />
+        <ImageView style="@style/top_bar_imageBack" android:id="@+id/image_topBack" />
+    </RelativeLayout>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="none">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:background="@color/text_background_color"
+                android:paddingLeft="@dimen/normal_leftMargin"
+                android:paddingRight="@dimen/normal_leftMargin"
+                android:layout_height="61dp">
+                <ImageView
+                    android:id="@+id/image_warn"
+                    android:layout_width="13dp"
+                    android:layout_height="13dp"
+                    android:layout_alignTop="@+id/text_warn"
+                    android:layout_marginTop="3dp"
+                    android:src="@mipmap/warn"/>
+                <TextView
+                    android:id="@+id/text_warn"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:text="重要提醒：出租物品一定要在图片和描述里说清楚配置清单、 零件清单，避免纠纷。查看出租流程"
+                    android:lineSpacingMultiplier="1.3"
+                    android:textSize="@dimen/smale_textSize"
+                    android:textColor="@color/top_bar_textColor"
+                    android:layout_toRightOf="@+id/image_warn"
+                    android:layout_marginLeft="7dp" />
+            </RelativeLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="65dp"
+                android:paddingLeft="@dimen/normal_leftMargin"
+                android:paddingRight="@dimen/normal_leftMargin"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text="物品名称"
+                    android:textSize="@dimen/textHintSize"
+                    android:textColor="@color/top_bar_textColor"
+                    android:layout_marginRight="12dp" />
+                <EditText
+                    android:id="@+id/et_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@null"
+                    android:hint="填写品牌、型号，都是大家喜欢搜索的"
+                    android:textSize="@dimen/normal_textSize"
+                    android:maxLength="30"
+                    android:textColor="@color/top_bar_textColor"
+                    android:textColorHint="@color/textHint_color" />
+            </LinearLayout>
+            <TextView
+                style="@style/text_divider"
+                android:layout_marginLeft="@dimen/normal_leftMargin"
+                android:layout_marginRight="@dimen/normal_leftMargin"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="65dp"
+                android:paddingLeft="@dimen/normal_leftMargin"
+                android:paddingRight="@dimen/normal_leftMargin"
+                android:layout_marginBottom="50dp"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text="物品描述"
+                    android:textSize="@dimen/textHintSize"
+                    android:textColor="@color/top_bar_textColor"
+                    android:layout_marginRight="12dp" />
+                <TextView
+                    android:id="@+id/et_des"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@null"
+                    android:gravity="center_vertical"
+                    android:hint="描述你的宝贝"
+                    android:textSize="@dimen/normal_textSize"
+                    android:lines="1"
+                    android:ellipsize="end"
+                    android:textColor="@color/top_bar_textColor"
+                    android:textColorHint="@color/textHint_color" />
+            </LinearLayout>
+            <!--图片上传区域-->
+            <com.zuzush.zuzush.overrideview.CustomerGridView
+                android:id="@+id/noScrollgridview"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/normal_leftMargin"
+                android:layout_marginRight="@dimen/normal_leftMargin"
+                android:horizontalSpacing="6dp"
+                android:numColumns="4"
+                android:scrollbars="none"
+                android:verticalSpacing="6dp" />
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:paddingLeft="@dimen/normal_leftMargin"
+                android:paddingRight="@dimen/normal_leftMargin"
+                android:layout_height="70dp">
+                <ImageView
+                    android:id="@+id/image_location"
+                    android:layout_width="15dp"
+                    android:layout_height="18dp"
+                    android:src="@mipmap/location"
+                    android:layout_centerVertical="true" />
+                <TextView
+                    android:id="@+id/tv_location"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_toRightOf="@+id/image_location"
+                    android:layout_marginLeft="@dimen/normal_margin"
+                    android:text="北京市  朝阳区"
+                    android:textSize="@dimen/smale_textSize"
+                    android:textColor="@color/top_bar_textColor"
+                    android:gravity="center" />
+                <RelativeLayout
+                    android:id="@+id/rel_old"
+                    android:layout_width="105dp"
+                    android:layout_height="30dp"
+                    android:paddingLeft="@dimen/large_margin"
+                    android:paddingRight="@dimen/normal_margin"
+                    android:background="@drawable/old_pop"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true">
+                    <TextView
+                        android:id="@+id/text_new_old"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="新旧度"
+                        android:textColor="@color/top_bar_textColor"
+                        android:textSize="@dimen/textHintSize"
+                        android:layout_centerVertical="true" />
+                    <ImageView
+                        android:layout_width="15dp"
+                        android:layout_height="8dp"
+                        android:src="@mipmap/down"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true" />
+                </RelativeLayout>
+            </RelativeLayout>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="6dp"
+                android:background="#F4F5F9"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="51dp"
+                android:layout_marginLeft="@dimen/normal_leftMargin"
+                android:layout_marginRight="@dimen/normal_leftMargin"
+                android:paddingRight="6dp"
+                android:paddingLeft="6dp"
+                android:background="@drawable/zuzu_background"
+                android:layout_marginBottom="@dimen/bottom_margin"
+                android:layout_marginTop="@dimen/bottom_margin"
+                android:orientation="horizontal">
+                <TextView
+                    android:id="@+id/text_rent_only"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="41dp"
+                    android:text="只租"
+                    android:textSize="@dimen/textHintSize"
+                    android:textColor="@color/background_white"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:background="@drawable/zuzu_button_background" />
+                <TextView
+                    android:id="@+id/text_sold_only"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="41dp"
+                    android:text="仅卖"
+                    android:textSize="@dimen/textHintSize"
+                    android:textColor="@color/top_bar_textColor"
+                    android:layout_gravity="center"
+                    android:gravity="center" />
+                <TextView
+                    android:id="@+id/text_rent_sold"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="41dp"
+                    android:text="可租可卖"
+                    android:textSize="@dimen/textHintSize"
+                    android:textColor="@color/top_bar_textColor"
+                    android:layout_gravity="center"
+                    android:gravity="center" />
+            </LinearLayout>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="82dp"
+                android:paddingRight="@dimen/normal_leftMargin"
+                android:paddingLeft="@dimen/normal_leftMargin"
+                android:paddingBottom="@dimen/bottom_margin"
+                android:paddingTop="@dimen/bottom_margin"
+                android:background="@mipmap/address_background">
+                <ImageView
+                    android:id="@+id/image_address"
+                    android:layout_width="14dp"
+                    android:layout_height="20dp"
+                    android:src="@mipmap/address"
+                    android:layout_centerVertical="true"/>
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_marginLeft="14dp"
+                    android:layout_toRightOf="@+id/image_address"
+                    android:layout_height="wrap_content">
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/top_bar_textColor"
+                            android:textSize="@dimen/textHintSize"
+                            android:layout_marginRight="17dp"
+                            android:layout_gravity="center_vertical"
+                            android:text="张晓明" />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/top_bar_textColor"
+                            android:textSize="@dimen/textHintSize"
+                            android:layout_gravity="center_vertical"
+                            android:text="183******36" />
+                        <TextView
+                            android:layout_width="36dp"
+                            android:layout_height="16dp"
+                            android:background="@drawable/default_background"
+                            android:layout_marginLeft="9dp"
+                            android:text="默认"
+                            android:gravity="center"
+                            android:textSize="11dp"
+                            android:textColor="#ABDBEF"
+                            android:layout_gravity="center_vertical" />
+                    </LinearLayout>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="true"
+                        android:text="北京市朝阳区大望路多悦大厦"
+                        android:textSize="13sp"
+                        android:textColor="@color/main_text_color" />
+                </RelativeLayout>
+            </RelativeLayout>
+            <include layout="@layout/publish_content"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="75dp"
+                android:orientation="horizontal"
+                android:paddingLeft="@dimen/normal_leftMargin"
+                android:paddingRight="@dimen/normal_leftMargin"
+                android:background="#F9FAFE">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="服务费2%"
+                    android:textSize="@dimen/smale_textSize"
+                    android:textColor="@color/publish_content_color"
+                    android:layout_gravity="center_vertical" />
+                <ImageView
+                    android:layout_width="36dp"
+                    android:layout_height="36dp"
+                    android:padding="@dimen/normal_margin"
+                    android:src="@mipmap/icon_wenti_fuwufei"
+                    android:layout_gravity="center_vertical" />
+            </LinearLayout>
+            <TextView
+                android:id="@+id/text_publish"
+                android:layout_width="match_parent"
+                android:layout_height="49dp"
+                android:background="@color/main_blue_color"
+                android:textSize="@dimen/textHintSize"
+                android:textColor="@color/background_white"
+                android:gravity="center"
+                android:text="确认发布" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

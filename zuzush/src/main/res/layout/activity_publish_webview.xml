@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:junliu="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+
+    <RelativeLayout style="@style/top_bar_layout">
+        <TextView
+            android:id="@+id/text_title"
+            style="@style/top_bar_textView" />
+        <ImageView style="@style/top_bar_imageBack"
+            android:id="@+id/image_topBack" />
+    </RelativeLayout>
+    <TextView style="@style/text_divider" />
+    <com.zuzush.zuzush.overrideview.CustomerProgress
+        android:id="@+id/progress"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        junliu:progressTextSize = "0dp"
+        junliu:progressTextOffset = "0dp"
+        junliu:progressUnreachColor = "@color/background_white"
+        junliu:progressUnreachHeight = "2dp"
+        android:max="100"
+        junliu:progressReachColor="@color/main_blue_color"
+        junliu:progressReachHeight = "2dp" />
+    <WebView
+        android:id="@+id/webView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none" />
+</LinearLayout>

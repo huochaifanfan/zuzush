@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_grey">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <RelativeLayout style="@style/top_bar_layout" >
+            <TextView
+                android:id="@+id/text_title"
+                style="@style/top_bar_textView"
+                android:text="添加收货地址" />
+            <ImageView style="@style/top_bar_imageBack" android:id="@+id/image_topBack" />
+            <TextView
+                android:id="@+id/text_delete"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="删除"
+                android:layout_alignParentRight="true"
+                android:gravity="center"
+                android:textSize="@dimen/top_bar_textSize"
+                android:visibility="gone"
+                android:textColor="@color/top_bar_textColor"
+                android:paddingRight="@dimen/large_margin" />
+        </RelativeLayout>
+        <TextView style="@style/text_divider"/>
+        <LinearLayout
+            style="@style/normal_layout">
+            <TextView
+                style="@style/publish_text_content"
+                android:text="收件姓名" />
+            <EditText
+                android:id="@+id/et_name"
+                style="@style/normal_layout_edittext"
+                android:hint="收件人的姓名" />
+        </LinearLayout>
+        <TextView style="@style/text_divider"/>
+        <LinearLayout
+            style="@style/normal_layout">
+            <TextView
+                style="@style/publish_text_content"
+                android:text="手机号码" />
+            <EditText
+                android:id="@+id/et_phone"
+                style="@style/normal_layout_edittext"
+                android:hint="收件人手机号"
+                android:inputType="phone"
+                android:maxLength="11"/>
+        </LinearLayout>
+        <TextView style="@style/text_divider"/>
+        <LinearLayout
+            style="@style/normal_layout">
+            <TextView
+                style="@style/publish_text_content"
+                android:text="位置地区" />
+            <TextView
+                android:id="@+id/text_address"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:paddingLeft="18dp"
+                android:textSize="@dimen/textHintSize"
+                android:textColor="@color/top_bar_textColor"
+                android:hint="选择地区"
+                android:background="@null"
+                android:gravity="center_vertical"
+                android:layout_marginRight="@dimen/large_margin"
+                android:textColorHint="@color/textHint_color" />
+            <ImageView
+                android:layout_width="7dp"
+                android:layout_height="15dp"
+                android:src="@mipmap/more_info"
+                android:layout_gravity="center"/>
+        </LinearLayout>
+        <TextView style="@style/text_divider"/>
+        <LinearLayout
+            style="@style/normal_layout">
+            <TextView
+                style="@style/publish_text_content"
+                android:text="详细地址" />
+            <EditText
+                android:id="@+id/et_address"
+                style="@style/normal_layout_edittext"
+                android:hint="详细地址信息" />
+        </LinearLayout>
+        <TextView style="@style/text_divider"/>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:background="@color/background_white"
+            android:layout_height="@dimen/normal_layout_height"
+            android:paddingLeft="@dimen/large_margin"
+            android:paddingRight="@dimen/large_margin">
+            <TextView
+                style="@style/publish_text_content"
+                android:text="是否默认" />
+            <CheckBox
+                android:id="@+id/checkbox"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:button="@null"
+                android:background="@drawable/zuzu_close" />
+        </RelativeLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/text_cancel"
+            android:layout_width="0dp"
+            android:layout_weight="1.3"
+            android:layout_height="match_parent"
+            android:background="@color/background_white"
+            android:text="取消"
+            android:textSize="@dimen/top_bar_textSize"
+            android:textColor="@color/main_blue_color"
+            android:gravity="center" />
+        <TextView
+            android:id="@+id/text_sure"
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:layout_height="match_parent"
+            android:background="@color/textHint_color"
+            android:text="保存"
+            android:textSize="@dimen/top_bar_textSize"
+            android:textColor="@color/background_white"
+            android:gravity="center" />
+    </LinearLayout>
+</RelativeLayout>

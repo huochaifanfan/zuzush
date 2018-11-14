@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/normal_layout_height"
+    android:id="@+id/rel_total"
+    android:paddingLeft="@dimen/large_margin"
+    android:paddingRight="@dimen/large_margin">
+
+    <TextView
+        android:id="@+id/text_name"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:text="个人资料"
+        android:textSize="@dimen/textHintSize"
+        android:textColor="@color/top_bar_textColor"
+        android:gravity="center" />
+    <ImageView
+        android:id="@+id/image_info"
+        android:layout_width="7dp"
+        android:layout_height="15dp"
+        android:src="@mipmap/more_info"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"/>
+</RelativeLayout>

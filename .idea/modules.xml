@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Imtou.iml" filepath="$PROJECT_DIR$/Imtou.iml" />
+      <module fileurl="file://$PROJECT_DIR$/androidtest/androidtest.iml" filepath="$PROJECT_DIR$/androidtest/androidtest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/imtou/imtou.iml" filepath="$PROJECT_DIR$/imtou/imtou.iml" />
+      <module fileurl="file://$PROJECT_DIR$/kunyuantang/kunyuantang.iml" filepath="$PROJECT_DIR$/kunyuantang/kunyuantang.iml" />
+      <module fileurl="file://$PROJECT_DIR$/supportlibry/supportlibry.iml" filepath="$PROJECT_DIR$/supportlibry/supportlibry.iml" />
+      <module fileurl="file://$PROJECT_DIR$/wytianxiatuan/wytianxiatuan.iml" filepath="$PROJECT_DIR$/wytianxiatuan/wytianxiatuan.iml" />
+      <module fileurl="file://$PROJECT_DIR$/zuzush/zuzush.iml" filepath="$PROJECT_DIR$/zuzush/zuzush.iml" />
+    </modules>
+  </component>
+</project>

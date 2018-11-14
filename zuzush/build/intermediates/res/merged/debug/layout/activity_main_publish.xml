@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@color/background_white"
+    android:layout_height="match_parent">
+    <RelativeLayout style="@style/top_bar_layout">
+        <TextView
+            style="@style/top_bar_textView"
+            android:text="发布" />
+        <ImageView style="@style/top_bar_imageBack"
+            android:id="@+id/image_topBack" />
+    </RelativeLayout>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="none">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="41dp"
+                android:paddingLeft="@dimen/normal_leftMargin"
+                android:paddingRight="@dimen/normal_leftMargin"
+                android:background="@color/publish_main_color"
+                android:orientation="horizontal">
+                <ImageView
+                    android:layout_width="14dp"
+                    android:layout_height="16dp"
+                    android:src="@mipmap/icon_gonglue"
+                    android:layout_gravity="center_vertical" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="9dp"
+                    android:text="租租攻略"
+                    android:textSize="@dimen/textHintSize"
+                    android:gravity="center"
+                    android:textColor="@color/top_bar_textColor" />
+            </LinearLayout>
+            <RelativeLayout
+                android:id="@+id/publish_skill"
+                android:layout_width="match_parent"
+                android:paddingLeft="@dimen/normal_leftMargin"
+                android:paddingRight="@dimen/normal_leftMargin"
+                android:layout_height="@dimen/publish_layout_height">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="发布技巧"
+                    android:textSize="@dimen/smale_textSize"
+                    android:textColor="@color/main_blue_color"
+                    android:gravity="center" />
+                <ImageView
+                    android:id="@+id/image_more"
+                    android:layout_width="@dimen/image_more_width"
+                    android:layout_height="@dimen/image_more_height"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:src="@mipmap/more_info" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginRight="16dp"
+                    android:text="如何能提高下单率"
+                    android:gravity="center"
+                    android:textColor="@color/main_text_color"
+                    android:textSize="@dimen/smale_textSize"
+                    android:layout_toLeftOf="@+id/image_more" />
+            </RelativeLayout>
+            <TextView
+                style="@style/text_divider"
+                android:layout_marginRight="@dimen/normal_leftMargin"
+                android:layout_marginLeft="@dimen/normal_leftMargin"/>
+
+            <RelativeLayout
+                android:id="@+id/publish_cheat"
+                android:layout_width="match_parent"
+                android:paddingLeft="@dimen/normal_leftMargin"
+                android:paddingRight="@dimen/normal_leftMargin"
+                android:layout_height="@dimen/publish_layout_height">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="防骗指南"
+                    android:textSize="@dimen/smale_textSize"
+                    android:textColor="@color/main_blue_color"
+                    android:gravity="center" />
+                <ImageView
+                    android:id="@+id/image_more1"
+                    android:layout_width="@dimen/image_more_width"
+                    android:layout_height="@dimen/image_more_height"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:src="@mipmap/more_info" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginRight="16dp"
+                    android:text="全新防骗秘笈"
+                    android:gravity="center"
+                    android:textColor="@color/main_text_color"
+                    android:textSize="@dimen/smale_textSize"
+                    android:layout_toLeftOf="@+id/image_more1" />
+            </RelativeLayout>
+            <TextView
+                style="@style/text_divider"
+                android:layout_marginRight="@dimen/normal_leftMargin"
+                android:layout_marginLeft="@dimen/normal_leftMargin"/>
+
+            <RelativeLayout
+                android:id="@+id/publish_deal"
+                android:layout_width="match_parent"
+                android:paddingLeft="@dimen/normal_leftMargin"
+                android:paddingRight="@dimen/normal_leftMargin"
+                android:layout_height="@dimen/publish_layout_height">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="担保交易"
+                    android:textSize="@dimen/smale_textSize"
+                    android:textColor="@color/main_blue_color"
+                    android:gravity="center" />
+                <ImageView
+                    android:id="@+id/image_more2"
+                    android:layout_width="@dimen/image_more_width"
+                    android:layout_height="@dimen/image_more_height"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:src="@mipmap/more_info" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginRight="16dp"
+                    android:text="租租生活支付宝担保交易"
+                    android:gravity="center"
+                    android:textColor="@color/main_text_color"
+                    android:textSize="@dimen/smale_textSize"
+                    android:layout_toLeftOf="@+id/image_more2" />
+            </RelativeLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="41dp"
+                android:paddingLeft="@dimen/normal_leftMargin"
+                android:paddingRight="@dimen/normal_leftMargin"
+                android:background="@color/publish_main_color"
+                android:orientation="horizontal">
+                <ImageView
+                    android:layout_width="14dp"
+                    android:layout_height="16dp"
+                    android:src="@mipmap/icon_fabu"
+                    android:layout_gravity="center_vertical" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="9dp"
+                    android:text="我要发布"
+                    android:textSize="@dimen/textHintSize"
+                    android:gravity="center"
+                    android:textColor="@color/top_bar_textColor" />
+            </LinearLayout>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/publish_image_topMargin"
+                android:paddingLeft="@dimen/publish_image_leftMargin"
+                android:paddingRight="@dimen/publish_image_leftMargin">
+                <ImageView
+                    android:id="@+id/image_rent_goods"
+                    android:layout_width="@dimen/publish_image_width"
+                    android:layout_height="@dimen/publish_image_width"
+                    android:src="@mipmap/icon_chuzu_jihuo" />
+                <ImageView
+                    android:id="@+id/image_sol_goods"
+                    android:layout_width="@dimen/publish_image_width"
+                    android:layout_height="@dimen/publish_image_width"
+                    android:src="@mipmap/icon_chushou_jihuo"
+                    android:layout_alignParentRight="true"/>
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/normal_margin"
+                android:paddingLeft="@dimen/publish_image_leftMargin"
+                android:paddingRight="@dimen/publish_image_leftMargin">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="出租物品"
+                    android:textColor="@color/top_bar_textColor" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="出售物品"
+                    android:layout_alignParentRight="true"
+                    android:textColor="@color/top_bar_textColor" />
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dp"
+                android:paddingLeft="@dimen/publish_image_leftMargin"
+                android:paddingRight="@dimen/publish_image_leftMargin">
+                <ImageView
+                    android:id="@+id/image_publish_service"
+                    android:layout_width="@dimen/publish_image_width"
+                    android:layout_height="@dimen/publish_image_width"
+                    android:src="@mipmap/icon_fuwu_jihuo" />
+                <ImageView
+                    android:id="@+id/image_publish_help"
+                    android:layout_width="@dimen/publish_image_width"
+                    android:layout_height="@dimen/publish_image_width"
+                    android:src="@mipmap/icon_bangzhu_jihuo"
+                    android:layout_alignParentRight="true"/>
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/normal_margin"
+                android:paddingLeft="@dimen/publish_image_leftMargin"
+                android:paddingRight="60dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="发布服务"
+                    android:textColor="@color/top_bar_textColor" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="求租/求购/求助"
+                    android:layout_alignParentRight="true"
+                    android:textColor="@color/top_bar_textColor" />
+            </RelativeLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

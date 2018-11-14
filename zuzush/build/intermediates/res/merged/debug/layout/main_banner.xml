@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:junliu="http://schemas.android.com/apk/res-auto"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    <com.zuzush.zuzush.overrideview.BannerLayout
+        android:id="@+id/banner_layout"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        junliu:autoPlayDuration = "5000"
+        junliu:indicatorSpace = "4dp"
+        junliu:indicatorPosition = "rightBottom"
+        junliu:indicatorShape = "oval"
+        junliu:isAutoPlay = "true"
+        junliu:selectedIndicatorColor = "#eeffffff"
+        junliu:unSelectedIndicatorColor = "#22ffffff"
+        junliu:selectedIndicatorHeight = "7dp"
+        junliu:selectedIndicatorWidth = "7dp"
+        junliu:unSelectedIndicatorHeight = "7dp"
+        junliu:unSelectedIndicatorWidth = "7dp"
+        junliu:scrollDuration = "600" />
+
+    <ImageView
+        android:id="@+id/image_banner"
+        android:layout_width="match_parent"
+        android:layout_height="115dp"
+        android:scaleType="fitXY" />
+</LinearLayout>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/background_grey">
+
+    <RelativeLayout style="@style/top_bar_layout">
+        <TextView
+            android:id="@+id/text_title"
+            style="@style/top_bar_textView"
+            android:text="修改性别" />
+        <ImageView style="@style/top_bar_imageBack" android:id="@+id/image_topBack" />
+    </RelativeLayout>
+    <TextView style="@style/text_divider"/>
+    <LinearLayout
+        android:id="@+id/linear_sex"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:background="@color/background_white"
+            android:layout_height="@dimen/normal_layout_height"
+            android:paddingLeft="@dimen/large_margin"
+            android:paddingRight="@dimen/large_margin">
+            <TextView
+                style="@style/publish_text_content"
+                android:text="男" />
+            <ImageView
+                android:id="@+id/checkbox"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:button="@null"
+                android:background="@drawable/zuzu_open" />
+        </RelativeLayout>
+        <TextView style="@style/text_divider"/>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:background="@color/background_white"
+            android:layout_height="@dimen/normal_layout_height"
+            android:paddingLeft="@dimen/large_margin"
+            android:paddingRight="@dimen/large_margin">
+            <TextView
+                style="@style/publish_text_content"
+                android:text="女" />
+            <ImageView
+                android:id="@+id/checkbox1"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:button="@null"
+                android:background="@drawable/zuzu_close" />
+        </RelativeLayout>
+        <TextView style="@style/text_divider"/>
+    </LinearLayout>
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recyclerview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/background_white"
+        android:scrollbars="none"/>
+</LinearLayout>

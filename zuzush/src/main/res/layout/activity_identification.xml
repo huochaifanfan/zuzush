@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/background_white">
+
+    <RelativeLayout style="@style/top_bar_layout">
+        <TextView
+            style="@style/top_bar_textView"
+            android:text="验证身份" />
+        <ImageView style="@style/top_bar_imageBack" android:id="@+id/image_topBack" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="176dp"
+        android:background="@color/background_grey">
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_centerInParent="true"
+            android:src="@mipmap/icon_shenfen" />
+    </RelativeLayout>
+    <LinearLayout style="@style/normal_layout">
+        <TextView
+            style="@style/publish_text_content"
+            android:text="手机号"/>
+        <TextView style="@style/normal_layout_edittext"
+            android:text="150****1899"
+            android:textColor="@color/main_text_color"
+            android:id="@+id/textPhone"/>
+    </LinearLayout>
+    <TextView style="@style/text_divider"/>
+    <LinearLayout style="@style/normal_layout">
+        <TextView
+            style="@style/publish_text_content"
+            android:text="验证码"/>
+        <EditText style="@style/normal_layout_edittext"
+            android:hint="请输入验证码"
+            android:id="@+id/etCaptcha"/>
+
+        <TextView
+            android:id="@+id/textCaptcha"
+            android:layout_width="104dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="获取验证码"
+            android:maxLength="6"
+            android:textColor="@color/main_blue_color"
+            android:textSize="@dimen/textHintSize" />
+    </LinearLayout>
+    <TextView style="@style/text_divider"/>
+    <TextView
+        android:id="@+id/textIsVoice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="收不到短信？语音验证码"
+        android:textSize="@dimen/smale_textSize"
+        android:textColor="@color/black_textColor"
+        android:layout_gravity="end"
+        android:layout_marginRight="@dimen/right_margin"
+        android:layout_marginTop="25dp"
+        android:layout_marginBottom="25dp" />
+    <Button
+        android:id="@+id/btnSure"
+        style="@style/button_style"
+        android:background="@drawable/button_background"
+        android:text="确认"/>
+</LinearLayout>

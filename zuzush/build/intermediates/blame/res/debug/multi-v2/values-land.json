@@ -1,0 +1,106 @@
+{
+    "logs": [
+        {
+            "outputFile": "D:\\WorkSpace\\Imtou\\zuzush\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-land\\values-land.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\liuju\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\ea0c55ce63fb6c47279665ca56d5c561\\res\\values-land\\values-land.xml",
+                    "from": {
+                        "startLines": "2,3,4,5",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,125,189,260",
+                        "endColumns": "69,63,70,67",
+                        "endOffsets": "120,184,255,323"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\liuju\\.gradle\\caches\\transforms-1\\files-1.1\\galleryfinal-1.4.8.7.aar\\7c116302c1bfda801aa21832d6fb2702\\res\\values-land\\values-land.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "4",
+                        "startOffsets": "190",
+                        "endColumns": "50",
+                        "endOffsets": "236"
+                    },
+                    "to": {
+                        "startLines": "6",
+                        "startColumns": "4",
+                        "startOffsets": "328",
+                        "endColumns": "50",
+                        "endOffsets": "374"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\liuju\\.gradle\\caches\\transforms-1\\files-1.1\\design-27.1.1.aar\\8b79af7b50aaf7488add5f8e9e7df6b0\\res\\values-land\\values-land.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "5",
+                        "endColumns": "12",
+                        "endOffsets": "232"
+                    },
+                    "to": {
+                        "startLines": "7",
+                        "startColumns": "4",
+                        "startOffsets": "379",
+                        "endLines": "10",
+                        "endColumns": "12",
+                        "endOffsets": "556"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "D:\\WorkSpace\\Imtou\\zuzush\\build\\intermediates\\res\\merged\\debug\\values-land\\values-land.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\liuju\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\ea0c55ce63fb6c47279665ca56d5c561\\res\\values-land\\values-land.xml",
+                    "from": {
+                        "startLines": "2,3,4,5",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,125,189,260",
+                        "endColumns": "69,63,70,67",
+                        "endOffsets": "120,184,255,323"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\liuju\\.gradle\\caches\\transforms-1\\files-1.1\\galleryfinal-1.4.8.7.aar\\7c116302c1bfda801aa21832d6fb2702\\res\\values-land\\values-land.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "4",
+                        "startOffsets": "190",
+                        "endColumns": "50",
+                        "endOffsets": "236"
+                    },
+                    "to": {
+                        "startLines": "6",
+                        "startColumns": "4",
+                        "startOffsets": "328",
+                        "endColumns": "50",
+                        "endOffsets": "374"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\liuju\\.gradle\\caches\\transforms-1\\files-1.1\\design-27.1.1.aar\\8b79af7b50aaf7488add5f8e9e7df6b0\\res\\values-land\\values-land.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "5",
+                        "endColumns": "12",
+                        "endOffsets": "232"
+                    },
+                    "to": {
+                        "startLines": "7",
+                        "startColumns": "4",
+                        "startOffsets": "379",
+                        "endLines": "10",
+                        "endColumns": "12",
+                        "endOffsets": "556"
+                    }
+                }
+            ]
+        }
+    ]
+}

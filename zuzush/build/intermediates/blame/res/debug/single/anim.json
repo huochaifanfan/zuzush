@@ -1,0 +1,90 @@
+[
+    {
+        "merged": "D:\\WorkSpace\\Imtou\\zuzush\\build\\intermediates\\res\\merged\\debug\\anim\\design_bottom_sheet_slide_out.xml",
+        "source": "C:\\Users\\liuju\\.gradle\\caches\\transforms-1\\files-1.1\\design-27.1.1.aar\\8b79af7b50aaf7488add5f8e9e7df6b0\\res\\anim\\design_bottom_sheet_slide_out.xml"
+    },
+    {
+        "merged": "D:\\WorkSpace\\Imtou\\zuzush\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_out_top.xml",
+        "source": "C:\\Users\\liuju\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\ea0c55ce63fb6c47279665ca56d5c561\\res\\anim\\abc_slide_out_top.xml"
+    },
+    {
+        "merged": "D:\\WorkSpace\\Imtou\\zuzush\\build\\intermediates\\res\\merged\\debug\\anim\\abc_tooltip_enter.xml",
+        "source": "C:\\Users\\liuju\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\ea0c55ce63fb6c47279665ca56d5c561\\res\\anim\\abc_tooltip_enter.xml"
+    },
+    {
+        "merged": "D:\\WorkSpace\\Imtou\\zuzush\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_out_bottom.xml",
+        "source": "C:\\Users\\liuju\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\ea0c55ce63fb6c47279665ca56d5c561\\res\\anim\\abc_slide_out_bottom.xml"
+    },
+    {
+        "merged": "D:\\WorkSpace\\Imtou\\zuzush\\build\\intermediates\\res\\merged\\debug\\anim\\gf_flip_horizontal_in.xml",
+        "source": "C:\\Users\\liuju\\.gradle\\caches\\transforms-1\\files-1.1\\galleryfinal-1.4.8.7.aar\\7c116302c1bfda801aa21832d6fb2702\\res\\anim\\gf_flip_horizontal_in.xml"
+    },
+    {
+        "merged": "D:\\WorkSpace\\Imtou\\zuzush\\build\\intermediates\\res\\merged\\debug\\anim\\pickerview_dialog_scale_out.xml",
+        "source": "C:\\Users\\liuju\\.gradle\\caches\\transforms-1\\files-1.1\\Android-PickerView-3.2.6.aar\\7b1c7c426b1a2731749a15eda9c75ef6\\res\\anim\\pickerview_dialog_scale_out.xml"
+    },
+    {
+        "merged": "D:\\WorkSpace\\Imtou\\zuzush\\build\\intermediates\\res\\merged\\debug\\anim\\abc_fade_in.xml",
+        "source": "C:\\Users\\liuju\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\ea0c55ce63fb6c47279665ca56d5c561\\res\\anim\\abc_fade_in.xml"
+    },
+    {
+        "merged": "D:\\WorkSpace\\Imtou\\zuzush\\build\\intermediates\\res\\merged\\debug\\anim\\pickerview_dialog_scale_in.xml",
+        "source": "C:\\Users\\liuju\\.gradle\\caches\\transforms-1\\files-1.1\\Android-PickerView-3.2.6.aar\\7b1c7c426b1a2731749a15eda9c75ef6\\res\\anim\\pickerview_dialog_scale_in.xml"
+    },
+    {
+        "merged": "D:\\WorkSpace\\Imtou\\zuzush\\build\\intermediates\\res\\merged\\debug\\anim\\abc_popup_exit.xml",
+        "source": "C:\\Users\\liuju\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\ea0c55ce63fb6c47279665ca56d5c561\\res\\anim\\abc_popup_exit.xml"
+    },
+    {
+        "merged": "D:\\WorkSpace\\Imtou\\zuzush\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_in_bottom.xml",
+        "source": "C:\\Users\\liuju\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\ea0c55ce63fb6c47279665ca56d5c561\\res\\anim\\abc_slide_in_bottom.xml"
+    },
+    {
+        "merged": "D:\\WorkSpace\\Imtou\\zuzush\\build\\intermediates\\res\\merged\\debug\\anim\\abc_tooltip_exit.xml",
+        "source": "C:\\Users\\liuju\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\ea0c55ce63fb6c47279665ca56d5c561\\res\\anim\\abc_tooltip_exit.xml"
+    },
+    {
+        "merged": "D:\\WorkSpace\\Imtou\\zuzush\\build\\intermediates\\res\\merged\\debug\\anim\\pickerview_slide_out_bottom.xml",
+        "source": "C:\\Users\\liuju\\.gradle\\caches\\transforms-1\\files-1.1\\Android-PickerView-3.2.6.aar\\7b1c7c426b1a2731749a15eda9c75ef6\\res\\anim\\pickerview_slide_out_bottom.xml"
+    },
+    {
+        "merged": "D:\\WorkSpace\\Imtou\\zuzush\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_in_top.xml",
+        "source": "C:\\Users\\liuju\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\ea0c55ce63fb6c47279665ca56d5c561\\res\\anim\\abc_slide_in_top.xml"
+    },
+    {
+        "merged": "D:\\WorkSpace\\Imtou\\zuzush\\build\\intermediates\\res\\merged\\debug\\anim\\abc_shrink_fade_out_from_bottom.xml",
+        "source": "C:\\Users\\liuju\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\ea0c55ce63fb6c47279665ca56d5c561\\res\\anim\\abc_shrink_fade_out_from_bottom.xml"
+    },
+    {
+        "merged": "D:\\WorkSpace\\Imtou\\zuzush\\build\\intermediates\\res\\merged\\debug\\anim\\abc_grow_fade_in_from_bottom.xml",
+        "source": "C:\\Users\\liuju\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\ea0c55ce63fb6c47279665ca56d5c561\\res\\anim\\abc_grow_fade_in_from_bottom.xml"
+    },
+    {
+        "merged": "D:\\WorkSpace\\Imtou\\zuzush\\build\\intermediates\\res\\merged\\debug\\anim\\gf_flip_horizontal_out.xml",
+        "source": "C:\\Users\\liuju\\.gradle\\caches\\transforms-1\\files-1.1\\galleryfinal-1.4.8.7.aar\\7c116302c1bfda801aa21832d6fb2702\\res\\anim\\gf_flip_horizontal_out.xml"
+    },
+    {
+        "merged": "D:\\WorkSpace\\Imtou\\zuzush\\build\\intermediates\\res\\merged\\debug\\anim\\abc_fade_out.xml",
+        "source": "C:\\Users\\liuju\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\ea0c55ce63fb6c47279665ca56d5c561\\res\\anim\\abc_fade_out.xml"
+    },
+    {
+        "merged": "D:\\WorkSpace\\Imtou\\zuzush\\build\\intermediates\\res\\merged\\debug\\anim\\pickerview_slide_in_bottom.xml",
+        "source": "C:\\Users\\liuju\\.gradle\\caches\\transforms-1\\files-1.1\\Android-PickerView-3.2.6.aar\\7b1c7c426b1a2731749a15eda9c75ef6\\res\\anim\\pickerview_slide_in_bottom.xml"
+    },
+    {
+        "merged": "D:\\WorkSpace\\Imtou\\zuzush\\build\\intermediates\\res\\merged\\debug\\anim\\design_snackbar_in.xml",
+        "source": "C:\\Users\\liuju\\.gradle\\caches\\transforms-1\\files-1.1\\design-27.1.1.aar\\8b79af7b50aaf7488add5f8e9e7df6b0\\res\\anim\\design_snackbar_in.xml"
+    },
+    {
+        "merged": "D:\\WorkSpace\\Imtou\\zuzush\\build\\intermediates\\res\\merged\\debug\\anim\\abc_popup_enter.xml",
+        "source": "C:\\Users\\liuju\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\ea0c55ce63fb6c47279665ca56d5c561\\res\\anim\\abc_popup_enter.xml"
+    },
+    {
+        "merged": "D:\\WorkSpace\\Imtou\\zuzush\\build\\intermediates\\res\\merged\\debug\\anim\\design_snackbar_out.xml",
+        "source": "C:\\Users\\liuju\\.gradle\\caches\\transforms-1\\files-1.1\\design-27.1.1.aar\\8b79af7b50aaf7488add5f8e9e7df6b0\\res\\anim\\design_snackbar_out.xml"
+    },
+    {
+        "merged": "D:\\WorkSpace\\Imtou\\zuzush\\build\\intermediates\\res\\merged\\debug\\anim\\design_bottom_sheet_slide_in.xml",
+        "source": "C:\\Users\\liuju\\.gradle\\caches\\transforms-1\\files-1.1\\design-27.1.1.aar\\8b79af7b50aaf7488add5f8e9e7df6b0\\res\\anim\\design_bottom_sheet_slide_in.xml"
+    }
+]

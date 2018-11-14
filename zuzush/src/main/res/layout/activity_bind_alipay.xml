@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/background_white">
+
+    <RelativeLayout style="@style/top_bar_layout">
+        <TextView
+            style="@style/top_bar_textView"
+            android:text="绑定支付宝"
+            android:id="@+id/text_title"/>
+        <ImageView style="@style/top_bar_imageBack" android:id="@+id/image_topBack" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="176dp"
+        android:background="@color/background_grey">
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_centerInParent="true"
+            android:src="@mipmap/icon_zhifubao_wode" />
+    </RelativeLayout>
+    <LinearLayout
+        style="@style/normal_layout">
+        <TextView
+            style="@style/publish_text_content"
+            android:text="收款人" />
+        <EditText
+            android:id="@+id/etName"
+            style="@style/normal_layout_edittext"
+            android:hint="支付宝认证的真实姓名"/>
+    </LinearLayout>
+    <TextView style="@style/text_divider"/>
+    <LinearLayout
+        style="@style/normal_layout">
+        <TextView
+            style="@style/publish_text_content"
+            android:text="账户名" />
+        <EditText
+            android:id="@+id/etAccount"
+            style="@style/normal_layout_edittext"
+            android:hint="收款人对应的支付宝账号"/>
+    </LinearLayout>
+    <TextView style="@style/text_divider"/>
+    <TextView
+        android:id="@+id/textHint"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="请确保支付宝已经过实名认证，否则无法提现"
+        android:textColor="@color/textHint_color"
+        android:textSize="@dimen/smale_textSize"
+        android:gravity="center"
+        android:layout_marginTop="@dimen/large_margin" />
+    <Button
+        android:id="@+id/btnBind"
+        style="@style/button_style"
+        android:layout_marginTop="@dimen/large_margin"
+        android:background="@drawable/button_background"
+        android:text="绑 定" />
+</LinearLayout>

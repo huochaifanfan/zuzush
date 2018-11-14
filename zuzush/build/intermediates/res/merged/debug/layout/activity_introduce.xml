@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/background_grey">
+
+    <RelativeLayout style="@style/top_bar_layout">
+        <TextView
+            android:id="@+id/text_title"
+            style="@style/top_bar_textView"
+            android:text="简介" />
+        <ImageView style="@style/top_bar_imageBack" android:id="@+id/image_topBack" />
+    </RelativeLayout>
+    <TextView style="@style/text_divider"/>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="186dp"
+        android:background="@color/background_white"
+        android:scrollbars="none">
+        <EditText
+            android:id="@+id/et_introduce"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="@dimen/large_margin"
+            android:background="@null"
+            android:hint="写几句话介绍自己，可以认识更多的朋友哦～"
+            android:textSize="@dimen/normal_textSize"
+            android:textColorHint="@color/textHint_color"
+            android:maxLength="200"
+            android:gravity="top" />
+    </ScrollView>
+    <TextView
+        android:id="@+id/text_length"
+        android:layout_width="match_parent"
+        android:background="@color/background_white"
+        android:text="0/200"
+        android:textSize="@dimen/normal_textSize"
+        android:textColor="@color/textHint_color"
+        android:gravity="center_vertical|right"
+        android:paddingRight="@dimen/large_margin"
+        android:layout_height="@dimen/normal_layout_height" />
+    <Button
+        android:id="@+id/btnSave"
+        style="@style/button_style"
+        android:layout_marginTop="@dimen/btn_top_margin"
+        android:background="@drawable/button_background"
+        android:text="保存" />
+</LinearLayout>

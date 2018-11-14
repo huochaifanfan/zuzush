@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/text_tig"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="137dp"
+        android:lineSpacingMultiplier="1.4"
+        android:gravity="center"
+        android:text="账户密码太多记不住？\n推荐使用快捷登录，更加安全方便"
+        android:textSize="@dimen/normal_textSize"
+        android:textColor="@color/main_text_color" />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:paddingLeft="72dp"
+        android:paddingRight="72dp"
+        android:layout_marginTop="35dp"
+        android:layout_below="@+id/text_tig"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <ImageView
+                android:id="@+id/weichat_login"
+                android:layout_width="@dimen/other_login_width"
+                android:layout_height="@dimen/other_login_width"
+                android:src="@mipmap/weichat_login" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/large_margin"
+                android:text="微信"
+                android:textSize="@dimen/normal_textSize"
+                android:textColor="@color/main_text_color"
+                android:layout_gravity="center" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:orientation="vertical">
+            <ImageView
+                android:id="@+id/qq_login"
+                android:layout_width="@dimen/other_login_width"
+                android:layout_height="@dimen/other_login_width"
+                android:src="@mipmap/qq_login" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/large_margin"
+                android:text="QQ"
+                android:textSize="@dimen/normal_textSize"
+                android:textColor="@color/main_text_color"
+                android:layout_gravity="center" />
+        </LinearLayout>
+    </RelativeLayout>
+    <TextView
+        android:id="@+id/text_login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="@dimen/bottom_margin"
+        android:text="登录代表您已阅读并同意《用户服务协议》"
+        android:gravity="center"
+        android:textSize="@dimen/smale_textSize"
+        android:textColor="@color/main_text_color" />
+</RelativeLayout>

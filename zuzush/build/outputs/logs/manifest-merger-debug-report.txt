@@ -1,0 +1,537 @@
+-- Merging decision tree log ---
+manifest
+ADDED from D:\WorkSpace\Imtou\zuzush\src\main\AndroidManifest.xml:2:1-165:12
+INJECTED from D:\WorkSpace\Imtou\zuzush\src\main\AndroidManifest.xml:2:1-165:12
+INJECTED from D:\WorkSpace\Imtou\zuzush\src\main\AndroidManifest.xml:2:1-165:12
+INJECTED from D:\WorkSpace\Imtou\zuzush\src\main\AndroidManifest.xml:2:1-165:12
+MERGED from [com.jakewharton:butterknife:8.7.0] C:\Users\liuju\.gradle\caches\transforms-1\files-1.1\butterknife-8.7.0.aar\903480be1d6d042f9a75877f113f337a\AndroidManifest.xml:2:1-7:12
+MERGED from [com.zhihu.android:matisse:0.5.0-alpha4] C:\Users\liuju\.gradle\caches\transforms-1\files-1.1\matisse-0.5.0-alpha4.aar\daf45d3bf814392184cac2ec8dd7be34\AndroidManifest.xml:17:1-33:12
+MERGED from [com.aliyun.ams:alicloud-android-hotfix:3.1.0] C:\Users\liuju\.gradle\caches\transforms-1\files-1.1\alicloud-android-hotfix-3.1.0.aar\c7db6e5d74ffcb8e60a1371d80be4164\AndroidManifest.xml:2:1-29:12
+MERGED from [cn.finalteam:galleryfinal:1.4.8.7] C:\Users\liuju\.gradle\caches\transforms-1\files-1.1\galleryfinal-1.4.8.7.aar\7c116302c1bfda801aa21832d6fb2702\AndroidManifest.xml:2:1-36:12
+MERGED from [com.github.CymChad:BaseRecyclerViewAdapterHelper:2.9.28] C:\Users\liuju\.gradle\caches\transforms-1\files-1.1\BaseRecyclerViewAdapterHelper-2.9.28.aar\a3754df1b2aea2c3823611aa7ecc405f\AndroidManifest.xml:2:1-11:12
+MERGED from [com.contrarywind:Android-PickerView:3.2.6] C:\Users\liuju\.gradle\caches\transforms-1\files-1.1\Android-PickerView-3.2.6.aar\7b1c7c426b1a2731749a15eda9c75ef6\AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support.constraint:constraint-layout:1.0.1] C:\Users\liuju\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.1.aar\8c4821f486bf62c2eb32a3b9994e63fa\AndroidManifest.xml:2:1-11:12
+MERGED from [de.hdodenhof:circleimageview:2.1.0] C:\Users\liuju\.gradle\caches\transforms-1\files-1.1\circleimageview-2.1.0.aar\a00e25057ce3e4e10aa26a868d8ae076\AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:cardview-v7:27.1.1] C:\Users\liuju\.gradle\caches\transforms-1\files-1.1\cardview-v7-27.1.1.aar\9a61d637bb8e6bb4d682f3f84f225201\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:design:27.1.1] C:\Users\liuju\.gradle\caches\transforms-1\files-1.1\design-27.1.1.aar\8b79af7b50aaf7488add5f8e9e7df6b0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:appcompat-v7:27.1.1] C:\Users\liuju\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.1.aar\ea0c55ce63fb6c47279665ca56d5c561\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:recyclerview-v7:27.1.1] C:\Users\liuju\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-27.1.1.aar\4154b36db68f86d8a8dee3ff36f7b3e7\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:transition:27.1.1] C:\Users\liuju\.gradle\caches\transforms-1\files-1.1\transition-27.1.1.aar\306d8715192613fea2283b6c833d65a9\AndroidManifest.xml:17:1-22:12
+MERGED from [cn.finalteam:toolsfinal:1.1.5] C:\Users\liuju\.gradle\caches\transforms-1\files-1.1\toolsfinal-1.1.5.aar\3fc5a4d72ebf4efab2561460ec21e58e\AndroidManifest.xml:2:1-28:12
+MERGED from [com.android.support:support-v4:27.1.1] C:\Users\liuju\.gradle\caches\transforms-1\files-1.1\support-v4-27.1.1.aar\92ea4074e9ca9e2f7da603f075367cfd\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\liuju\.gradle\caches\transforms-1\files-1.1\support-fragment-27.1.1.aar\ecb8669daf0f5d0c7264c0789318e89b\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] C:\Users\liuju\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.1.1.aar\d13cffe3b401b06b1258de9319b3c80a\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:27.1.1] C:\Users\liuju\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.1.1.aar\22201ca23da50f0c35cf91e727ba0eef\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:27.1.1] C:\Users\liuju\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.1.1.aar\5412fcaeb8e73fb20923685d3c6b15cf\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:27.1.1] C:\Users\liuju\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.1.1.aar\1e0857825d2321a8eb8b2017bf891cc1\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-media-compat:27.1.1] C:\Users\liuju\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.1.1.aar\1514148ad2b5e6722ee7153643fba8b8\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:27.1.1] C:\Users\liuju\.gradle\caches\transforms-1\files-1.1\support-compat-27.1.1.aar\b97b74576eff26e222ecd2a12f070e28\AndroidManifest.xml:17:1-22:12
+MERGED from [it.sephiroth.android.library.imagezoom:library:1.0.4] C:\Users\liuju\.gradle\caches\transforms-1\files-1.1\library-1.0.4.aar\27d17bcdf3b9971119a2624c346a2a4c\AndroidManifest.xml:1:106-7:12
+MERGED from [it.sephiroth.android.library.easing:library:1.0.2] C:\Users\liuju\.gradle\caches\transforms-1\files-1.1\library-1.0.2.aar\765d9fea58d780ed721d917f7120a654\AndroidManifest.xml:1:116-8:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\liuju\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.0.aar\ff9f8b12ea7ca892d1d614bcf7517b72\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\liuju\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.0.aar\57c7c26d6f9e64e19892ac25079f21ca\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\liuju\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\c28bcf2ad0e2f7b1b82ad49957bec592\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.0] C:\Users\liuju\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\fb4f78ea984ca797ffc36eed512ae828\AndroidManifest.xml:17:1-22:12
+INJECTED from D:\WorkSpace\Imtou\zuzush\src\main\AndroidManifest.xml:2:1-165:12
+INJECTED from D:\WorkSpace\Imtou\zuzush\src\main\AndroidManifest.xml:2:1-165:12
+INJECTED from D:\WorkSpace\Imtou\zuzush\src\main\AndroidManifest.xml:2:1-165:12
+	package
+		ADDED from D:\WorkSpace\Imtou\zuzush\src\main\AndroidManifest.xml:3:5-32
+		INJECTED from D:\WorkSpace\Imtou\zuzush\src\main\AndroidManifest.xml
+		INJECTED from D:\WorkSpace\Imtou\zuzush\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from D:\WorkSpace\Imtou\zuzush\src\main\AndroidManifest.xml
+		ADDED from D:\WorkSpace\Imtou\zuzush\src\main\AndroidManifest.xml:2:1-165:12
+		INJECTED from D:\WorkSpace\Imtou\zuzush\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from D:\WorkSpace\Imtou\zuzush\src\main\AndroidManifest.xml
+		ADDED from D:\WorkSpace\Imtou\zuzush\src\main\AndroidManifest.xml:2:1-165:12
+		INJECTED from D:\WorkSpace\Imtou\zuzush\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from D:\WorkSpace\Imtou\zuzush\src\main\AndroidManifest.xml:2:11-69
+uses-permission#android.permission.INTERNET
+ADDED from D:\WorkSpace\Imtou\zuzush\src\main\AndroidManifest.xml:6:5-67
+MERGED from [com.aliyun.ams:alicloud-android-hotfix:3.1.0] C:\Users\liuju\.gradle\caches\transforms-1\files-1.1\alicloud-android-hotfix-3.1.0.aar\c7db6e5d74ffcb8e60a1371d80be4164\AndroidManifest.xml:11:5-67
+MERGED from [com.aliyun.ams:alicloud-android-hotfix:3.1.0] C:\Users\liuju\.gradle\caches\transforms-1\files-1.1\alicloud-android-hotfix-3.1.0.aar\c7db6e5d74ffcb8e60a1371d80be4164\AndroidManifest.xml:11:5-67
+	android:name
+		ADDED from D:\WorkSpace\Imtou\zuzush\src\main\AndroidManifest.xml:6:22-64
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from D:\WorkSpace\Imtou\zuzush\src\main\AndroidManifest.xml:7:5-79
+MERGED from [com.aliyun.ams:alicloud-android-hotfix:3.1.0] C:\Users\liuju\.gradle\caches\transforms-1\files-1.1\alicloud-android-hotfix-3.1.0.aar\c7db6e5d74ffcb8e60a1371d80be4164\AndroidManifest.xml:12:5-79
+MERGED from [com.aliyun.ams:alicloud-android-hotfix:3.1.0] C:\Users\liuju\.gradle\caches\transforms-1\files-1.1\alicloud-android-hotfix-3.1.0.aar\c7db6e5d74ffcb8e60a1371d80be4164\AndroidManifest.xml:12:5-79
+MERGED from [cn.finalteam:toolsfinal:1.1.5] C:\Users\liuju\.gradle\caches\transforms-1\files-1.1\toolsfinal-1.1.5.aar\3fc5a4d72ebf4efab2561460ec21e58e\AndroidManifest.xml:24:5-79
+MERGED from [cn.finalteam:toolsfinal:1.1.5] C:\Users\liuju\.gradle\caches\transforms-1\files-1.1\toolsfinal-1.1.5.aar\3fc5a4d72ebf4efab2561460ec21e58e\AndroidManifest.xml:24:5-79
+	android:name
+		ADDED from D:\WorkSpace\Imtou\zuzush\src\main\AndroidManifest.xml:7:22-76
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from D:\WorkSpace\Imtou\zuzush\src\main\AndroidManifest.xml:9:5-76
+MERGED from [com.aliyun.ams:alicloud-android-hotfix:3.1.0] C:\Users\liuju\.gradle\caches\transforms-1\files-1.1\alicloud-android-hotfix-3.1.0.aar\c7db6e5d74ffcb8e60a1371d80be4164\AndroidManifest.xml:13:5-76
+MERGED from [com.aliyun.ams:alicloud-android-hotfix:3.1.0] C:\Users\liuju\.gradle\caches\transforms-1\files-1.1\alicloud-android-hotfix-3.1.0.aar\c7db6e5d74ffcb8e60a1371d80be4164\AndroidManifest.xml:13:5-76
+MERGED from [cn.finalteam:toolsfinal:1.1.5] C:\Users\liuju\.gradle\caches\transforms-1\files-1.1\toolsfinal-1.1.5.aar\3fc5a4d72ebf4efab2561460ec21e58e\AndroidManifest.xml:20:5-76
+MERGED from [cn.finalteam:toolsfinal:1.1.5] C:\Users\liuju\.gradle\caches\transforms-1\files-1.1\toolsfinal-1.1.5.aar\3fc5a4d72ebf4efab2561460ec21e58e\AndroidManifest.xml:20:5-76
+	android:name
+		ADDED from D:\WorkSpace\Imtou\zuzush\src\main\AndroidManifest.xml:9:22-73
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from D:\WorkSpace\Imtou\zuzush\src\main\AndroidManifest.xml:10:5-75
+MERGED from [cn.finalteam:toolsfinal:1.1.5] C:\Users\liuju\.gradle\caches\transforms-1\files-1.1\toolsfinal-1.1.5.aar\3fc5a4d72ebf4efab2561460ec21e58e\AndroidManifest.xml:18:5-75
+MERGED from [cn.finalteam:toolsfinal:1.1.5] C:\Users\liuju\.gradle\caches\transforms-1\files-1.1\toolsfinal-1.1.5.aar\3fc5a4d72ebf4efab2561460ec21e58e\AndroidManifest.xml:18:5-75
+	android:name
+		ADDED from D:\WorkSpace\Imtou\zuzush\src\main\AndroidManifest.xml:10:22-72
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from D:\WorkSpace\Imtou\zuzush\src\main\AndroidManifest.xml:11:5-81
+MERGED from [com.zhihu.android:matisse:0.5.0-alpha4] C:\Users\liuju\.gradle\caches\transforms-1\files-1.1\matisse-0.5.0-alpha4.aar\daf45d3bf814392184cac2ec8dd7be34\AndroidManifest.xml:24:5-81
+MERGED from [com.zhihu.android:matisse:0.5.0-alpha4] C:\Users\liuju\.gradle\caches\transforms-1\files-1.1\matisse-0.5.0-alpha4.aar\daf45d3bf814392184cac2ec8dd7be34\AndroidManifest.xml:24:5-81
+MERGED from [cn.finalteam:galleryfinal:1.4.8.7] C:\Users\liuju\.gradle\caches\transforms-1\files-1.1\galleryfinal-1.4.8.7.aar\7c116302c1bfda801aa21832d6fb2702\AndroidManifest.xml:14:5-81
+MERGED from [cn.finalteam:galleryfinal:1.4.8.7] C:\Users\liuju\.gradle\caches\transforms-1\files-1.1\galleryfinal-1.4.8.7.aar\7c116302c1bfda801aa21832d6fb2702\AndroidManifest.xml:14:5-81
+MERGED from [cn.finalteam:toolsfinal:1.1.5] C:\Users\liuju\.gradle\caches\transforms-1\files-1.1\toolsfinal-1.1.5.aar\3fc5a4d72ebf4efab2561460ec21e58e\AndroidManifest.xml:14:5-81
+MERGED from [cn.finalteam:toolsfinal:1.1.5] C:\Users\liuju\.gradle\caches\transforms-1\files-1.1\toolsfinal-1.1.5.aar\3fc5a4d72ebf4efab2561460ec21e58e\AndroidManifest.xml:14:5-81
+	android:name
+		ADDED from D:\WorkSpace\Imtou\zuzush\src\main\AndroidManifest.xml:11:22-78
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from D:\WorkSpace\Imtou\zuzush\src\main\AndroidManifest.xml:12:5-80
+MERGED from [com.zhihu.android:matisse:0.5.0-alpha4] C:\Users\liuju\.gradle\caches\transforms-1\files-1.1\matisse-0.5.0-alpha4.aar\daf45d3bf814392184cac2ec8dd7be34\AndroidManifest.xml:25:5-80
+MERGED from [com.zhihu.android:matisse:0.5.0-alpha4] C:\Users\liuju\.gradle\caches\transforms-1\files-1.1\matisse-0.5.0-alpha4.aar\daf45d3bf814392184cac2ec8dd7be34\AndroidManifest.xml:25:5-80
+MERGED from [com.aliyun.ams:alicloud-android-hotfix:3.1.0] C:\Users\liuju\.gradle\caches\transforms-1\files-1.1\alicloud-android-hotfix-3.1.0.aar\c7db6e5d74ffcb8e60a1371d80be4164\AndroidManifest.xml:14:5-80
+MERGED from [com.aliyun.ams:alicloud-android-hotfix:3.1.0] C:\Users\liuju\.gradle\caches\transforms-1\files-1.1\alicloud-android-hotfix-3.1.0.aar\c7db6e5d74ffcb8e60a1371d80be4164\AndroidManifest.xml:14:5-80
+MERGED from [cn.finalteam:galleryfinal:1.4.8.7] C:\Users\liuju\.gradle\caches\transforms-1\files-1.1\galleryfinal-1.4.8.7.aar\7c116302c1bfda801aa21832d6fb2702\AndroidManifest.xml:16:5-80
+MERGED from [cn.finalteam:galleryfinal:1.4.8.7] C:\Users\liuju\.gradle\caches\transforms-1\files-1.1\galleryfinal-1.4.8.7.aar\7c116302c1bfda801aa21832d6fb2702\AndroidManifest.xml:16:5-80
+MERGED from [cn.finalteam:toolsfinal:1.1.5] C:\Users\liuju\.gradle\caches\transforms-1\files-1.1\toolsfinal-1.1.5.aar\3fc5a4d72ebf4efab2561460ec21e58e\AndroidManifest.xml:16:5-80
+MERGED from [cn.finalteam:toolsfinal:1.1.5] C:\Users\liuju\.gradle\caches\transforms-1\files-1.1\toolsfinal-1.1.5.aar\3fc5a4d72ebf4efab2561460ec21e58e\AndroidManifest.xml:16:5-80
+	android:name
+		ADDED from D:\WorkSpace\Imtou\zuzush\src\main\AndroidManifest.xml:12:22-77
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from D:\WorkSpace\Imtou\zuzush\src\main\AndroidManifest.xml:16:5-81
+	android:name
+		ADDED from D:\WorkSpace\Imtou\zuzush\src\main\AndroidManifest.xml:16:22-78
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from D:\WorkSpace\Imtou\zuzush\src\main\AndroidManifest.xml:18:5-79
+	android:name
+		ADDED from D:\WorkSpace\Imtou\zuzush\src\main\AndroidManifest.xml:18:22-76
+uses-permission#android.permission.CHANGE_WIFI_STATE
+ADDED from D:\WorkSpace\Imtou\zuzush\src\main\AndroidManifest.xml:20:5-76
+	android:name
+		ADDED from D:\WorkSpace\Imtou\zuzush\src\main\AndroidManifest.xml:20:22-73
+uses-permission#android.permission.ACCESS_LOCATION_EXTRA_COMMANDS
+ADDED from D:\WorkSpace\Imtou\zuzush\src\main\AndroidManifest.xml:22:5-89
+	android:name
+		ADDED from D:\WorkSpace\Imtou\zuzush\src\main\AndroidManifest.xml:22:22-86
+uses-permission#android.permission.BLUETOOTH
+ADDED from D:\WorkSpace\Imtou\zuzush\src\main\AndroidManifest.xml:24:5-68
+	android:name
+		ADDED from D:\WorkSpace\Imtou\zuzush\src\main\AndroidManifest.xml:24:22-65
+uses-permission#android.permission.BLUETOOTH_ADMIN
+ADDED from D:\WorkSpace\Imtou\zuzush\src\main\AndroidManifest.xml:25:5-74
+	android:name
+		ADDED from D:\WorkSpace\Imtou\zuzush\src\main\AndroidManifest.xml:25:22-71
+application
+ADDED from D:\WorkSpace\Imtou\zuzush\src\main\AndroidManifest.xml:27:5-164:19
+MERGED from [com.zhihu.android:matisse:0.5.0-alpha4] C:\Users\liuju\.gradle\caches\transforms-1\files-1.1\matisse-0.5.0-alpha4.aar\daf45d3bf814392184cac2ec8dd7be34\AndroidManifest.xml:27:5-31:19
+MERGED from [com.zhihu.android:matisse:0.5.0-alpha4] C:\Users\liuju\.gradle\caches\transforms-1\files-1.1\matisse-0.5.0-alpha4.aar\daf45d3bf814392184cac2ec8dd7be34\AndroidManifest.xml:27:5-31:19
+MERGED from [com.aliyun.ams:alicloud-android-hotfix:3.1.0] C:\Users\liuju\.gradle\caches\transforms-1\files-1.1\alicloud-android-hotfix-3.1.0.aar\c7db6e5d74ffcb8e60a1371d80be4164\AndroidManifest.xml:16:5-27:19
+MERGED from [com.aliyun.ams:alicloud-android-hotfix:3.1.0] C:\Users\liuju\.gradle\caches\transforms-1\files-1.1\alicloud-android-hotfix-3.1.0.aar\c7db6e5d74ffcb8e60a1371d80be4164\AndroidManifest.xml:16:5-27:19
+MERGED from [cn.finalteam:galleryfinal:1.4.8.7] C:\Users\liuju\.gradle\caches\transforms-1\files-1.1\galleryfinal-1.4.8.7.aar\7c116302c1bfda801aa21832d6fb2702\AndroidManifest.xml:18:5-34:19
+MERGED from [cn.finalteam:galleryfinal:1.4.8.7] C:\Users\liuju\.gradle\caches\transforms-1\files-1.1\galleryfinal-1.4.8.7.aar\7c116302c1bfda801aa21832d6fb2702\AndroidManifest.xml:18:5-34:19
+MERGED from [com.android.support.constraint:constraint-layout:1.0.1] C:\Users\liuju\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.1.aar\8c4821f486bf62c2eb32a3b9994e63fa\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.0.1] C:\Users\liuju\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.1.aar\8c4821f486bf62c2eb32a3b9994e63fa\AndroidManifest.xml:9:5-20
+MERGED from [de.hdodenhof:circleimageview:2.1.0] C:\Users\liuju\.gradle\caches\transforms-1\files-1.1\circleimageview-2.1.0.aar\a00e25057ce3e4e10aa26a868d8ae076\AndroidManifest.xml:9:5-20
+MERGED from [de.hdodenhof:circleimageview:2.1.0] C:\Users\liuju\.gradle\caches\transforms-1\files-1.1\circleimageview-2.1.0.aar\a00e25057ce3e4e10aa26a868d8ae076\AndroidManifest.xml:9:5-20
+MERGED from [it.sephiroth.android.library.imagezoom:library:1.0.4] C:\Users\liuju\.gradle\caches\transforms-1\files-1.1\library-1.0.4.aar\27d17bcdf3b9971119a2624c346a2a4c\AndroidManifest.xml:5:5-19
+MERGED from [it.sephiroth.android.library.imagezoom:library:1.0.4] C:\Users\liuju\.gradle\caches\transforms-1\files-1.1\library-1.0.4.aar\27d17bcdf3b9971119a2624c346a2a4c\AndroidManifest.xml:5:5-19
+MERGED from [it.sephiroth.android.library.easing:library:1.0.2] C:\Users\liuju\.gradle\caches\transforms-1\files-1.1\library-1.0.2.aar\765d9fea58d780ed721d917f7120a654\AndroidManifest.xml:5:5-6:19
+MERGED from [it.sephiroth.android.library.easing:library:1.0.2] C:\Users\liuju\.gradle\caches\transforms-1\files-1.1\library-1.0.2.aar\765d9fea58d780ed721d917f7120a654\AndroidManifest.xml:5:5-6:19
+	android:supportsRtl
+		ADDED from D:\WorkSpace\Imtou\zuzush\src\main\AndroidManifest.xml:32:9-35
+	android:label
+		ADDED from D:\WorkSpace\Imtou\zuzush\src\main\AndroidManifest.xml:31:9-41
+	android:largeHeap
+		ADDED from [cn.finalteam:galleryfinal:1.4.8.7] C:\Users\liuju\.gradle\caches\transforms-1\files-1.1\galleryfinal-1.4.8.7.aar\7c116302c1bfda801aa21832d6fb2702\AndroidManifest.xml:20:9-33
+	android:icon
+		ADDED from D:\WorkSpace\Imtou\zuzush\src\main\AndroidManifest.xml:30:9-43
+	android:allowBackup
+		ADDED from D:\WorkSpace\Imtou\zuzush\src\main\AndroidManifest.xml:29:9-35
+	android:theme
+		ADDED from D:\WorkSpace\Imtou\zuzush\src\main\AndroidManifest.xml:33:9-40
+	android:name
+		ADDED from D:\WorkSpace\Imtou\zuzush\src\main\AndroidManifest.xml:28:9-52
+meta-data#com.taobao.android.hotfix.IDSECRET
+ADDED from D:\WorkSpace\Imtou\zuzush\src\main\AndroidManifest.xml:36:9-38:43
+	android:value
+		ADDED from D:\WorkSpace\Imtou\zuzush\src\main\AndroidManifest.xml:38:13-40
+	android:name
+		ADDED from D:\WorkSpace\Imtou\zuzush\src\main\AndroidManifest.xml:37:13-62
+meta-data#com.taobao.android.hotfix.APPSECRET
+ADDED from D:\WorkSpace\Imtou\zuzush\src\main\AndroidManifest.xml:39:9-41:64
+	android:value
+		ADDED from D:\WorkSpace\Imtou\zuzush\src\main\AndroidManifest.xml:41:13-61
+	android:name
+		ADDED from D:\WorkSpace\Imtou\zuzush\src\main\AndroidManifest.xml:40:13-63
+meta-data#com.taobao.android.hotfix.RSASECRET
+ADDED from D:\WorkSpace\Imtou\zuzush\src\main\AndroidManifest.xml:42:9-44:50
+	android:value
+		ADDED from D:\WorkSpace\Imtou\zuzush\src\main\AndroidManifest.xml:44:13-47
+	android:name
+		ADDED from D:\WorkSpace\Imtou\zuzush\src\main\AndroidManifest.xml:43:13-63
+provider#android.support.v4.content.FileProvider
+ADDED from D:\WorkSpace\Imtou\zuzush\src\main\AndroidManifest.xml:46:9-54:20
+	android:grantUriPermissions
+		ADDED from D:\WorkSpace\Imtou\zuzush\src\main\AndroidManifest.xml:50:13-47
+	android:authorities
+		ADDED from D:\WorkSpace\Imtou\zuzush\src\main\AndroidManifest.xml:48:13-65
+	android:exported
+		ADDED from D:\WorkSpace\Imtou\zuzush\src\main\AndroidManifest.xml:49:13-37
+	android:name
+		ADDED from D:\WorkSpace\Imtou\zuzush\src\main\AndroidManifest.xml:47:13-67
+meta-data#android.support.FILE_PROVIDER_PATHS
+ADDED from D:\WorkSpace\Imtou\zuzush\src\main\AndroidManifest.xml:51:13-53:54
+	android:resource
+		ADDED from D:\WorkSpace\Imtou\zuzush\src\main\AndroidManifest.xml:53:17-51
+	android:name
+		ADDED from D:\WorkSpace\Imtou\zuzush\src\main\AndroidManifest.xml:52:17-67
+meta-data#com.amap.api.v2.apikey
+ADDED from D:\WorkSpace\Imtou\zuzush\src\main\AndroidManifest.xml:56:9-58:64
+	android:value
+		ADDED from D:\WorkSpace\Imtou\zuzush\src\main\AndroidManifest.xml:58:13-61
+	android:name
+		ADDED from D:\WorkSpace\Imtou\zuzush\src\main\AndroidManifest.xml:57:13-50
+service#com.amap.api.location.APSService
+ADDED from D:\WorkSpace\Imtou\zuzush\src\main\AndroidManifest.xml:60:9-68
+	android:name
+		ADDED from D:\WorkSpace\Imtou\zuzush\src\main\AndroidManifest.xml:60:18-65
+activity#com.zuzush.zuzush.view.main.MainActivity
+ADDED from D:\WorkSpace\Imtou\zuzush\src\main\AndroidManifest.xml:62:9-71:20
+	android:screenOrientation
+		ADDED from D:\WorkSpace\Imtou\zuzush\src\main\AndroidManifest.xml:65:13-49
+	android:launchMode
+		ADDED from D:\WorkSpace\Imtou\zuzush\src\main\AndroidManifest.xml:64:13-44
+	android:name
+		ADDED from D:\WorkSpace\Imtou\zuzush\src\main\AndroidManifest.xml:63:13-51
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from D:\WorkSpace\Imtou\zuzush\src\main\AndroidManifest.xml:66:13-70:29
+action#android.intent.action.MAIN
+ADDED from D:\WorkSpace\Imtou\zuzush\src\main\AndroidManifest.xml:67:17-69
+	android:name
+		ADDED from D:\WorkSpace\Imtou\zuzush\src\main\AndroidManifest.xml:67:25-66
+category#android.intent.category.LAUNCHER
+ADDED from D:\WorkSpace\Imtou\zuzush\src\main\AndroidManifest.xml:69:17-77
+	android:name
+		ADDED from D:\WorkSpace\Imtou\zuzush\src\main\AndroidManifest.xml:69:27-74
+activity#com.zuzush.zuzush.view.base.BaseActivity
+ADDED from D:\WorkSpace\Imtou\zuzush\src\main\AndroidManifest.xml:72:9-74:52
+	android:screenOrientation
+		ADDED from D:\WorkSpace\Imtou\zuzush\src\main\AndroidManifest.xml:74:13-49
+	android:name
+		ADDED from D:\WorkSpace\Imtou\zuzush\src\main\AndroidManifest.xml:73:13-51
+activity#com.zuzush.zuzush.view.login.LoginActivity
+ADDED from D:\WorkSpace\Imtou\zuzush\src\main\AndroidManifest.xml:75:9-78:61
+	android:screenOrientation
+		ADDED from D:\WorkSpace\Imtou\zuzush\src\main\AndroidManifest.xml:78:13-49
+	android:launchMode
+		ADDED from D:\WorkSpace\Imtou\zuzush\src\main\AndroidManifest.xml:77:13-44
+	android:name
+		ADDED from D:\WorkSpace\Imtou\zuzush\src\main\AndroidManifest.xml:76:13-53
+activity#com.zuzush.zuzush.view.publish.PublishActivity
+ADDED from D:\WorkSpace\Imtou\zuzush\src\main\AndroidManifest.xml:79:9-81:61
+	android:screenOrientation
+		ADDED from D:\WorkSpace\Imtou\zuzush\src\main\AndroidManifest.xml:81:13-49
+	android:name
+		ADDED from D:\WorkSpace\Imtou\zuzush\src\main\AndroidManifest.xml:80:13-57
+activity#com.zuzush.zuzush.view.publish.PublishMainActivity
+ADDED from D:\WorkSpace\Imtou\zuzush\src\main\AndroidManifest.xml:82:9-84:61
+	android:screenOrientation
+		ADDED from D:\WorkSpace\Imtou\zuzush\src\main\AndroidManifest.xml:84:13-49
+	android:name
+		ADDED from D:\WorkSpace\Imtou\zuzush\src\main\AndroidManifest.xml:83:13-61
+activity#com.zuzush.zuzush.view.publish.GoodsDescription
+ADDED from D:\WorkSpace\Imtou\zuzush\src\main\AndroidManifest.xml:85:9-87:52
+	android:screenOrientation
+		ADDED from D:\WorkSpace\Imtou\zuzush\src\main\AndroidManifest.xml:87:13-49
+	android:name
+		ADDED from D:\WorkSpace\Imtou\zuzush\src\main\AndroidManifest.xml:86:13-58
+activity#com.zuzush.zuzush.view.publish.PublishWebView
+ADDED from D:\WorkSpace\Imtou\zuzush\src\main\AndroidManifest.xml:88:9-90:52
+	android:screenOrientation
+		ADDED from D:\WorkSpace\Imtou\zuzush\src\main\AndroidManifest.xml:90:13-49
+	android:name
+		ADDED from D:\WorkSpace\Imtou\zuzush\src\main\AndroidManifest.xml:89:13-56
+activity#com.zuzush.zuzush.view.publish.ClassifyActivity
+ADDED from D:\WorkSpace\Imtou\zuzush\src\main\AndroidManifest.xml:91:9-93:52
+	android:screenOrientation
+		ADDED from D:\WorkSpace\Imtou\zuzush\src\main\AndroidManifest.xml:93:13-49
+	android:name
+		ADDED from D:\WorkSpace\Imtou\zuzush\src\main\AndroidManifest.xml:92:13-58
+activity#com.zuzush.zuzush.view.my.PersonalDataActivity
+ADDED from D:\WorkSpace\Imtou\zuzush\src\main\AndroidManifest.xml:94:9-96:52
+	android:screenOrientation
+		ADDED from D:\WorkSpace\Imtou\zuzush\src\main\AndroidManifest.xml:96:13-49
+	android:name
+		ADDED from D:\WorkSpace\Imtou\zuzush\src\main\AndroidManifest.xml:95:13-57
+activity#com.zuzush.zuzush.view.my.ModifyNickNameActivity
+ADDED from D:\WorkSpace\Imtou\zuzush\src\main\AndroidManifest.xml:97:9-99:52
+	android:screenOrientation
+		ADDED from D:\WorkSpace\Imtou\zuzush\src\main\AndroidManifest.xml:99:13-49
+	android:name
+		ADDED from D:\WorkSpace\Imtou\zuzush\src\main\AndroidManifest.xml:98:13-59
+activity#com.zuzush.zuzush.view.my.AddressManageActivity
+ADDED from D:\WorkSpace\Imtou\zuzush\src\main\AndroidManifest.xml:100:9-102:52
+	android:screenOrientation
+		ADDED from D:\WorkSpace\Imtou\zuzush\src\main\AndroidManifest.xml:102:13-49
+	android:name
+		ADDED from D:\WorkSpace\Imtou\zuzush\src\main\AndroidManifest.xml:101:13-58
+activity#com.zuzush.zuzush.view.my.AddAddressActivity
+ADDED from D:\WorkSpace\Imtou\zuzush\src\main\AndroidManifest.xml:103:9-105:52
+	android:screenOrientation
+		ADDED from D:\WorkSpace\Imtou\zuzush\src\main\AndroidManifest.xml:105:13-49
+	android:name
+		ADDED from D:\WorkSpace\Imtou\zuzush\src\main\AndroidManifest.xml:104:13-55
+activity#com.zuzush.zuzush.wxapi.WXEntryActivity
+ADDED from D:\WorkSpace\Imtou\zuzush\src\main\AndroidManifest.xml:107:9-110:52
+	android:screenOrientation
+		ADDED from D:\WorkSpace\Imtou\zuzush\src\main\AndroidManifest.xml:110:13-49
+	android:exported
+		ADDED from D:\WorkSpace\Imtou\zuzush\src\main\AndroidManifest.xml:109:13-36
+	android:name
+		ADDED from D:\WorkSpace\Imtou\zuzush\src\main\AndroidManifest.xml:108:13-50
+activity#com.tencent.tauth.AuthActivity
+ADDED from D:\WorkSpace\Imtou\zuzush\src\main\AndroidManifest.xml:112:9-124:20
+	android:launchMode
+		ADDED from D:\WorkSpace\Imtou\zuzush\src\main\AndroidManifest.xml:114:13-44
+	android:noHistory
+		ADDED from D:\WorkSpace\Imtou\zuzush\src\main\AndroidManifest.xml:115:13-37
+	android:name
+		ADDED from D:\WorkSpace\Imtou\zuzush\src\main\AndroidManifest.xml:113:13-58
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:scheme:tencentÄãµÄAppId
+ADDED from D:\WorkSpace\Imtou\zuzush\src\main\AndroidManifest.xml:116:13-123:29
+action#android.intent.action.VIEW
+ADDED from D:\WorkSpace\Imtou\zuzush\src\main\AndroidManifest.xml:117:17-69
+	android:name
+		ADDED from D:\WorkSpace\Imtou\zuzush\src\main\AndroidManifest.xml:117:25-66
+category#android.intent.category.DEFAULT
+ADDED from D:\WorkSpace\Imtou\zuzush\src\main\AndroidManifest.xml:119:17-76
+	android:name
+		ADDED from D:\WorkSpace\Imtou\zuzush\src\main\AndroidManifest.xml:119:27-73
+category#android.intent.category.BROWSABLE
+ADDED from D:\WorkSpace\Imtou\zuzush\src\main\AndroidManifest.xml:120:17-78
+	android:name
+		ADDED from D:\WorkSpace\Imtou\zuzush\src\main\AndroidManifest.xml:120:27-75
+data
+ADDED from D:\WorkSpace\Imtou\zuzush\src\main\AndroidManifest.xml:122:17-57
+	android:scheme
+		ADDED from D:\WorkSpace\Imtou\zuzush\src\main\AndroidManifest.xml:122:23-54
+activity#com.tencent.connect.common.AssistActivity
+ADDED from D:\WorkSpace\Imtou\zuzush\src\main\AndroidManifest.xml:125:9-128:75
+	android:configChanges
+		ADDED from D:\WorkSpace\Imtou\zuzush\src\main\AndroidManifest.xml:127:13-74
+	android:theme
+		ADDED from D:\WorkSpace\Imtou\zuzush\src\main\AndroidManifest.xml:128:13-72
+	android:name
+		ADDED from D:\WorkSpace\Imtou\zuzush\src\main\AndroidManifest.xml:126:13-69
+activity#com.alipay.sdk.app.H5PayActivity
+ADDED from D:\WorkSpace\Imtou\zuzush\src\main\AndroidManifest.xml:131:9-137:20
+	android:screenOrientation
+		ADDED from D:\WorkSpace\Imtou\zuzush\src\main\AndroidManifest.xml:135:13-47
+	android:windowSoftInputMode
+		ADDED from D:\WorkSpace\Imtou\zuzush\src\main\AndroidManifest.xml:136:13-67
+	android:exported
+		ADDED from D:\WorkSpace\Imtou\zuzush\src\main\AndroidManifest.xml:134:13-37
+	android:configChanges
+		ADDED from D:\WorkSpace\Imtou\zuzush\src\main\AndroidManifest.xml:133:13-85
+	android:name
+		ADDED from D:\WorkSpace\Imtou\zuzush\src\main\AndroidManifest.xml:132:13-60
+activity#com.alipay.sdk.app.H5AuthActivity
+ADDED from D:\WorkSpace\Imtou\zuzush\src\main\AndroidManifest.xml:138:9-144:20
+	android:screenOrientation
+		ADDED from D:\WorkSpace\Imtou\zuzush\src\main\AndroidManifest.xml:142:13-47
+	android:windowSoftInputMode
+		ADDED from D:\WorkSpace\Imtou\zuzush\src\main\AndroidManifest.xml:143:13-67
+	android:exported
+		ADDED from D:\WorkSpace\Imtou\zuzush\src\main\AndroidManifest.xml:141:13-37
+	android:configChanges
+		ADDED from D:\WorkSpace\Imtou\zuzush\src\main\AndroidManifest.xml:140:13-74
+	android:name
+		ADDED from D:\WorkSpace\Imtou\zuzush\src\main\AndroidManifest.xml:139:13-61
+activity#com.zuzush.zuzush.view.setting.SettingActivity
+ADDED from D:\WorkSpace\Imtou\zuzush\src\main\AndroidManifest.xml:146:9-147:61
+	android:screenOrientation
+		ADDED from D:\WorkSpace\Imtou\zuzush\src\main\AndroidManifest.xml:147:13-49
+	android:name
+		ADDED from D:\WorkSpace\Imtou\zuzush\src\main\AndroidManifest.xml:146:19-63
+activity#com.zuzush.zuzush.view.my.MyWalletActivity
+ADDED from D:\WorkSpace\Imtou\zuzush\src\main\AndroidManifest.xml:148:9-149:61
+	android:screenOrientation
+		ADDED from D:\WorkSpace\Imtou\zuzush\src\main\AndroidManifest.xml:149:13-49
+	android:name
+		ADDED from D:\WorkSpace\Imtou\zuzush\src\main\AndroidManifest.xml:148:19-59
+activity#com.zuzush.zuzush.view.my.BindAliPayActivity
+ADDED from D:\WorkSpace\Imtou\zuzush\src\main\AndroidManifest.xml:150:9-151:61
+	android:screenOrientation
+		ADDED from D:\WorkSpace\Imtou\zuzush\src\main\AndroidManifest.xml:151:13-49
+	android:name
+		ADDED from D:\WorkSpace\Imtou\zuzush\src\main\AndroidManifest.xml:150:19-61
+activity#com.zuzush.zuzush.view.my.DrawCashActivity
+ADDED from D:\WorkSpace\Imtou\zuzush\src\main\AndroidManifest.xml:152:9-153:61
+	android:screenOrientation
+		ADDED from D:\WorkSpace\Imtou\zuzush\src\main\AndroidManifest.xml:153:13-49
+	android:name
+		ADDED from D:\WorkSpace\Imtou\zuzush\src\main\AndroidManifest.xml:152:19-59
+activity#com.zuzush.zuzush.view.my.VerifyIdentificationActivity
+ADDED from D:\WorkSpace\Imtou\zuzush\src\main\AndroidManifest.xml:154:9-155:61
+	android:screenOrientation
+		ADDED from D:\WorkSpace\Imtou\zuzush\src\main\AndroidManifest.xml:155:13-49
+	android:name
+		ADDED from D:\WorkSpace\Imtou\zuzush\src\main\AndroidManifest.xml:154:19-71
+activity#com.zuzush.zuzush.view.setting.BlackListActivity
+ADDED from D:\WorkSpace\Imtou\zuzush\src\main\AndroidManifest.xml:156:9-157:61
+	android:screenOrientation
+		ADDED from D:\WorkSpace\Imtou\zuzush\src\main\AndroidManifest.xml:157:13-49
+	android:name
+		ADDED from D:\WorkSpace\Imtou\zuzush\src\main\AndroidManifest.xml:156:19-65
+activity#com.zuzush.zuzush.view.setting.ModifySexActivity
+ADDED from D:\WorkSpace\Imtou\zuzush\src\main\AndroidManifest.xml:158:9-159:61
+	android:screenOrientation
+		ADDED from D:\WorkSpace\Imtou\zuzush\src\main\AndroidManifest.xml:159:13-49
+	android:name
+		ADDED from D:\WorkSpace\Imtou\zuzush\src\main\AndroidManifest.xml:158:19-65
+activity#com.zuzush.zuzush.view.setting.PersonalIntroduceActivity
+ADDED from D:\WorkSpace\Imtou\zuzush\src\main\AndroidManifest.xml:160:9-161:61
+	android:screenOrientation
+		ADDED from D:\WorkSpace\Imtou\zuzush\src\main\AndroidManifest.xml:161:13-49
+	android:name
+		ADDED from D:\WorkSpace\Imtou\zuzush\src\main\AndroidManifest.xml:160:19-73
+activity#com.zuzush.zuzush.view.my.DealRecordActivity
+ADDED from D:\WorkSpace\Imtou\zuzush\src\main\AndroidManifest.xml:162:9-163:61
+	android:screenOrientation
+		ADDED from D:\WorkSpace\Imtou\zuzush\src\main\AndroidManifest.xml:163:13-49
+	android:name
+		ADDED from D:\WorkSpace\Imtou\zuzush\src\main\AndroidManifest.xml:162:19-61
+uses-sdk
+INJECTED from D:\WorkSpace\Imtou\zuzush\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from D:\WorkSpace\Imtou\zuzush\src\main\AndroidManifest.xml
+INJECTED from D:\WorkSpace\Imtou\zuzush\src\main\AndroidManifest.xml
+MERGED from [com.jakewharton:butterknife:8.7.0] C:\Users\liuju\.gradle\caches\transforms-1\files-1.1\butterknife-8.7.0.aar\903480be1d6d042f9a75877f113f337a\AndroidManifest.xml:5:5-43
+MERGED from [com.jakewharton:butterknife:8.7.0] C:\Users\liuju\.gradle\caches\transforms-1\files-1.1\butterknife-8.7.0.aar\903480be1d6d042f9a75877f113f337a\AndroidManifest.xml:5:5-43
+MERGED from [com.zhihu.android:matisse:0.5.0-alpha4] C:\Users\liuju\.gradle\caches\transforms-1\files-1.1\matisse-0.5.0-alpha4.aar\daf45d3bf814392184cac2ec8dd7be34\AndroidManifest.xml:20:5-22:41
+MERGED from [com.zhihu.android:matisse:0.5.0-alpha4] C:\Users\liuju\.gradle\caches\transforms-1\files-1.1\matisse-0.5.0-alpha4.aar\daf45d3bf814392184cac2ec8dd7be34\AndroidManifest.xml:20:5-22:41
+MERGED from [com.aliyun.ams:alicloud-android-hotfix:3.1.0] C:\Users\liuju\.gradle\caches\transforms-1\files-1.1\alicloud-android-hotfix-3.1.0.aar\c7db6e5d74ffcb8e60a1371d80be4164\AndroidManifest.xml:7:5-9:41
+MERGED from [com.aliyun.ams:alicloud-android-hotfix:3.1.0] C:\Users\liuju\.gradle\caches\transforms-1\files-1.1\alicloud-android-hotfix-3.1.0.aar\c7db6e5d74ffcb8e60a1371d80be4164\AndroidManifest.xml:7:5-9:41
+MERGED from [cn.finalteam:galleryfinal:1.4.8.7] C:\Users\liuju\.gradle\caches\transforms-1\files-1.1\galleryfinal-1.4.8.7.aar\7c116302c1bfda801aa21832d6fb2702\AndroidManifest.xml:7:5-9:41
+MERGED from [cn.finalteam:galleryfinal:1.4.8.7] C:\Users\liuju\.gradle\caches\transforms-1\files-1.1\galleryfinal-1.4.8.7.aar\7c116302c1bfda801aa21832d6fb2702\AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.CymChad:BaseRecyclerViewAdapterHelper:2.9.28] C:\Users\liuju\.gradle\caches\transforms-1\files-1.1\BaseRecyclerViewAdapterHelper-2.9.28.aar\a3754df1b2aea2c3823611aa7ecc405f\AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.CymChad:BaseRecyclerViewAdapterHelper:2.9.28] C:\Users\liuju\.gradle\caches\transforms-1\files-1.1\BaseRecyclerViewAdapterHelper-2.9.28.aar\a3754df1b2aea2c3823611aa7ecc405f\AndroidManifest.xml:7:5-9:41
+MERGED from [com.contrarywind:Android-PickerView:3.2.6] C:\Users\liuju\.gradle\caches\transforms-1\files-1.1\Android-PickerView-3.2.6.aar\7b1c7c426b1a2731749a15eda9c75ef6\AndroidManifest.xml:7:5-9:41
+MERGED from [com.contrarywind:Android-PickerView:3.2.6] C:\Users\liuju\.gradle\caches\transforms-1\files-1.1\Android-PickerView-3.2.6.aar\7b1c7c426b1a2731749a15eda9c75ef6\AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support.constraint:constraint-layout:1.0.1] C:\Users\liuju\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.1.aar\8c4821f486bf62c2eb32a3b9994e63fa\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.0.1] C:\Users\liuju\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.1.aar\8c4821f486bf62c2eb32a3b9994e63fa\AndroidManifest.xml:5:5-7:41
+MERGED from [de.hdodenhof:circleimageview:2.1.0] C:\Users\liuju\.gradle\caches\transforms-1\files-1.1\circleimageview-2.1.0.aar\a00e25057ce3e4e10aa26a868d8ae076\AndroidManifest.xml:5:5-7:41
+MERGED from [de.hdodenhof:circleimageview:2.1.0] C:\Users\liuju\.gradle\caches\transforms-1\files-1.1\circleimageview-2.1.0.aar\a00e25057ce3e4e10aa26a868d8ae076\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:cardview-v7:27.1.1] C:\Users\liuju\.gradle\caches\transforms-1\files-1.1\cardview-v7-27.1.1.aar\9a61d637bb8e6bb4d682f3f84f225201\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:27.1.1] C:\Users\liuju\.gradle\caches\transforms-1\files-1.1\cardview-v7-27.1.1.aar\9a61d637bb8e6bb4d682f3f84f225201\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design:27.1.1] C:\Users\liuju\.gradle\caches\transforms-1\files-1.1\design-27.1.1.aar\8b79af7b50aaf7488add5f8e9e7df6b0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design:27.1.1] C:\Users\liuju\.gradle\caches\transforms-1\files-1.1\design-27.1.1.aar\8b79af7b50aaf7488add5f8e9e7df6b0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.1.1] C:\Users\liuju\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.1.aar\ea0c55ce63fb6c47279665ca56d5c561\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.1.1] C:\Users\liuju\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.1.aar\ea0c55ce63fb6c47279665ca56d5c561\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:27.1.1] C:\Users\liuju\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-27.1.1.aar\4154b36db68f86d8a8dee3ff36f7b3e7\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:27.1.1] C:\Users\liuju\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-27.1.1.aar\4154b36db68f86d8a8dee3ff36f7b3e7\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:27.1.1] C:\Users\liuju\.gradle\caches\transforms-1\files-1.1\transition-27.1.1.aar\306d8715192613fea2283b6c833d65a9\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:27.1.1] C:\Users\liuju\.gradle\caches\transforms-1\files-1.1\transition-27.1.1.aar\306d8715192613fea2283b6c833d65a9\AndroidManifest.xml:20:5-44
+MERGED from [cn.finalteam:toolsfinal:1.1.5] C:\Users\liuju\.gradle\caches\transforms-1\files-1.1\toolsfinal-1.1.5.aar\3fc5a4d72ebf4efab2561460ec21e58e\AndroidManifest.xml:7:5-9:41
+MERGED from [cn.finalteam:toolsfinal:1.1.5] C:\Users\liuju\.gradle\caches\transforms-1\files-1.1\toolsfinal-1.1.5.aar\3fc5a4d72ebf4efab2561460ec21e58e\AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:support-v4:27.1.1] C:\Users\liuju\.gradle\caches\transforms-1\files-1.1\support-v4-27.1.1.aar\92ea4074e9ca9e2f7da603f075367cfd\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:27.1.1] C:\Users\liuju\.gradle\caches\transforms-1\files-1.1\support-v4-27.1.1.aar\92ea4074e9ca9e2f7da603f075367cfd\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\liuju\.gradle\caches\transforms-1\files-1.1\support-fragment-27.1.1.aar\ecb8669daf0f5d0c7264c0789318e89b\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\liuju\.gradle\caches\transforms-1\files-1.1\support-fragment-27.1.1.aar\ecb8669daf0f5d0c7264c0789318e89b\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] C:\Users\liuju\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.1.1.aar\d13cffe3b401b06b1258de9319b3c80a\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] C:\Users\liuju\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.1.1.aar\d13cffe3b401b06b1258de9319b3c80a\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.1] C:\Users\liuju\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.1.1.aar\22201ca23da50f0c35cf91e727ba0eef\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.1] C:\Users\liuju\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.1.1.aar\22201ca23da50f0c35cf91e727ba0eef\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.1] C:\Users\liuju\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.1.1.aar\5412fcaeb8e73fb20923685d3c6b15cf\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.1] C:\Users\liuju\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.1.1.aar\5412fcaeb8e73fb20923685d3c6b15cf\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.1.1] C:\Users\liuju\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.1.1.aar\1e0857825d2321a8eb8b2017bf891cc1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.1.1] C:\Users\liuju\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.1.1.aar\1e0857825d2321a8eb8b2017bf891cc1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.1.1] C:\Users\liuju\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.1.1.aar\1514148ad2b5e6722ee7153643fba8b8\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.1.1] C:\Users\liuju\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.1.1.aar\1514148ad2b5e6722ee7153643fba8b8\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.1] C:\Users\liuju\.gradle\caches\transforms-1\files-1.1\support-compat-27.1.1.aar\b97b74576eff26e222ecd2a12f070e28\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.1] C:\Users\liuju\.gradle\caches\transforms-1\files-1.1\support-compat-27.1.1.aar\b97b74576eff26e222ecd2a12f070e28\AndroidManifest.xml:20:5-44
+MERGED from [it.sephiroth.android.library.imagezoom:library:1.0.4] C:\Users\liuju\.gradle\caches\transforms-1\files-1.1\library-1.0.4.aar\27d17bcdf3b9971119a2624c346a2a4c\AndroidManifest.xml:3:5-72
+MERGED from [it.sephiroth.android.library.imagezoom:library:1.0.4] C:\Users\liuju\.gradle\caches\transforms-1\files-1.1\library-1.0.4.aar\27d17bcdf3b9971119a2624c346a2a4c\AndroidManifest.xml:3:5-72
+MERGED from [it.sephiroth.android.library.easing:library:1.0.2] C:\Users\liuju\.gradle\caches\transforms-1\files-1.1\library-1.0.2.aar\765d9fea58d780ed721d917f7120a654\AndroidManifest.xml:3:5-72
+MERGED from [it.sephiroth.android.library.easing:library:1.0.2] C:\Users\liuju\.gradle\caches\transforms-1\files-1.1\library-1.0.2.aar\765d9fea58d780ed721d917f7120a654\AndroidManifest.xml:3:5-72
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\liuju\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.0.aar\ff9f8b12ea7ca892d1d614bcf7517b72\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\liuju\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.0.aar\ff9f8b12ea7ca892d1d614bcf7517b72\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\liuju\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.0.aar\57c7c26d6f9e64e19892ac25079f21ca\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\liuju\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.0.aar\57c7c26d6f9e64e19892ac25079f21ca\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\liuju\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\c28bcf2ad0e2f7b1b82ad49957bec592\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\liuju\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\c28bcf2ad0e2f7b1b82ad49957bec592\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.0] C:\Users\liuju\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\fb4f78ea984ca797ffc36eed512ae828\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.0] C:\Users\liuju\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\fb4f78ea984ca797ffc36eed512ae828\AndroidManifest.xml:20:5-44
+INJECTED from D:\WorkSpace\Imtou\zuzush\src\main\AndroidManifest.xml
+INJECTED from D:\WorkSpace\Imtou\zuzush\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from D:\WorkSpace\Imtou\zuzush\src\main\AndroidManifest.xml
+		ADDED from D:\WorkSpace\Imtou\zuzush\src\main\AndroidManifest.xml
+		INJECTED from D:\WorkSpace\Imtou\zuzush\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from D:\WorkSpace\Imtou\zuzush\src\main\AndroidManifest.xml
+		ADDED from D:\WorkSpace\Imtou\zuzush\src\main\AndroidManifest.xml
+		INJECTED from D:\WorkSpace\Imtou\zuzush\src\main\AndroidManifest.xml
+activity#com.zhihu.matisse.ui.MatisseActivity
+ADDED from [com.zhihu.android:matisse:0.5.0-alpha4] C:\Users\liuju\.gradle\caches\transforms-1\files-1.1\matisse-0.5.0-alpha4.aar\daf45d3bf814392184cac2ec8dd7be34\AndroidManifest.xml:28:9-73
+	android:name
+		ADDED from [com.zhihu.android:matisse:0.5.0-alpha4] C:\Users\liuju\.gradle\caches\transforms-1\files-1.1\matisse-0.5.0-alpha4.aar\daf45d3bf814392184cac2ec8dd7be34\AndroidManifest.xml:28:19-70
+activity#com.zhihu.matisse.internal.ui.AlbumPreviewActivity
+ADDED from [com.zhihu.android:matisse:0.5.0-alpha4] C:\Users\liuju\.gradle\caches\transforms-1\files-1.1\matisse-0.5.0-alpha4.aar\daf45d3bf814392184cac2ec8dd7be34\AndroidManifest.xml:29:9-87
+	android:name
+		ADDED from [com.zhihu.android:matisse:0.5.0-alpha4] C:\Users\liuju\.gradle\caches\transforms-1\files-1.1\matisse-0.5.0-alpha4.aar\daf45d3bf814392184cac2ec8dd7be34\AndroidManifest.xml:29:19-84
+activity#com.zhihu.matisse.internal.ui.SelectedPreviewActivity
+ADDED from [com.zhihu.android:matisse:0.5.0-alpha4] C:\Users\liuju\.gradle\caches\transforms-1\files-1.1\matisse-0.5.0-alpha4.aar\daf45d3bf814392184cac2ec8dd7be34\AndroidManifest.xml:30:9-90
+	android:name
+		ADDED from [com.zhihu.android:matisse:0.5.0-alpha4] C:\Users\liuju\.gradle\caches\transforms-1\files-1.1\matisse-0.5.0-alpha4.aar\daf45d3bf814392184cac2ec8dd7be34\AndroidManifest.xml:30:19-87
+service#com.taobao.sophix.aidl.DownloadService
+ADDED from [com.aliyun.ams:alicloud-android-hotfix:3.1.0] C:\Users\liuju\.gradle\caches\transforms-1\files-1.1\alicloud-android-hotfix-3.1.0.aar\c7db6e5d74ffcb8e60a1371d80be4164\AndroidManifest.xml:17:9-25:19
+	android:exported
+		ADDED from [com.aliyun.ams:alicloud-android-hotfix:3.1.0] C:\Users\liuju\.gradle\caches\transforms-1\files-1.1\alicloud-android-hotfix-3.1.0.aar\c7db6e5d74ffcb8e60a1371d80be4164\AndroidManifest.xml:19:13-36
+	android:name
+		ADDED from [com.aliyun.ams:alicloud-android-hotfix:3.1.0] C:\Users\liuju\.gradle\caches\transforms-1\files-1.1\alicloud-android-hotfix-3.1.0.aar\c7db6e5d74ffcb8e60a1371d80be4164\AndroidManifest.xml:18:13-66
+intent-filter#action:name:com.taobao.hotfix.action+category:name:android.intent.category.DEFAULT
+ADDED from [com.aliyun.ams:alicloud-android-hotfix:3.1.0] C:\Users\liuju\.gradle\caches\transforms-1\files-1.1\alicloud-android-hotfix-3.1.0.aar\c7db6e5d74ffcb8e60a1371d80be4164\AndroidManifest.xml:20:13-24:29
+action#com.taobao.hotfix.action
+ADDED from [com.aliyun.ams:alicloud-android-hotfix:3.1.0] C:\Users\liuju\.gradle\caches\transforms-1\files-1.1\alicloud-android-hotfix-3.1.0.aar\c7db6e5d74ffcb8e60a1371d80be4164\AndroidManifest.xml:21:17-67
+	android:name
+		ADDED from [com.aliyun.ams:alicloud-android-hotfix:3.1.0] C:\Users\liuju\.gradle\caches\transforms-1\files-1.1\alicloud-android-hotfix-3.1.0.aar\c7db6e5d74ffcb8e60a1371d80be4164\AndroidManifest.xml:21:25-64
+uses-permission#android.permission.MOUNT_UNMOUNT_FILESYSTEMS
+ADDED from [cn.finalteam:galleryfinal:1.4.8.7] C:\Users\liuju\.gradle\caches\transforms-1\files-1.1\galleryfinal-1.4.8.7.aar\7c116302c1bfda801aa21832d6fb2702\AndroidManifest.xml:12:5-84
+MERGED from [cn.finalteam:toolsfinal:1.1.5] C:\Users\liuju\.gradle\caches\transforms-1\files-1.1\toolsfinal-1.1.5.aar\3fc5a4d72ebf4efab2561460ec21e58e\AndroidManifest.xml:12:5-84
+MERGED from [cn.finalteam:toolsfinal:1.1.5] C:\Users\liuju\.gradle\caches\transforms-1\files-1.1\toolsfinal-1.1.5.aar\3fc5a4d72ebf4efab2561460ec21e58e\AndroidManifest.xml:12:5-84
+	android:name
+		ADDED from [cn.finalteam:galleryfinal:1.4.8.7] C:\Users\liuju\.gradle\caches\transforms-1\files-1.1\galleryfinal-1.4.8.7.aar\7c116302c1bfda801aa21832d6fb2702\AndroidManifest.xml:12:22-81
+activity#cn.finalteam.galleryfinal.PhotoSelectActivity
+ADDED from [cn.finalteam:galleryfinal:1.4.8.7] C:\Users\liuju\.gradle\caches\transforms-1\files-1.1\galleryfinal-1.4.8.7.aar\7c116302c1bfda801aa21832d6fb2702\AndroidManifest.xml:22:9-25:52
+	android:screenOrientation
+		ADDED from [cn.finalteam:galleryfinal:1.4.8.7] C:\Users\liuju\.gradle\caches\transforms-1\files-1.1\galleryfinal-1.4.8.7.aar\7c116302c1bfda801aa21832d6fb2702\AndroidManifest.xml:25:13-49
+	android:configChanges
+		ADDED from [cn.finalteam:galleryfinal:1.4.8.7] C:\Users\liuju\.gradle\caches\transforms-1\files-1.1\galleryfinal-1.4.8.7.aar\7c116302c1bfda801aa21832d6fb2702\AndroidManifest.xml:24:13-83
+	android:name
+		ADDED from [cn.finalteam:galleryfinal:1.4.8.7] C:\Users\liuju\.gradle\caches\transforms-1\files-1.1\galleryfinal-1.4.8.7.aar\7c116302c1bfda801aa21832d6fb2702\AndroidManifest.xml:23:13-73
+activity#cn.finalteam.galleryfinal.PhotoEditActivity
+ADDED from [cn.finalteam:galleryfinal:1.4.8.7] C:\Users\liuju\.gradle\caches\transforms-1\files-1.1\galleryfinal-1.4.8.7.aar\7c116302c1bfda801aa21832d6fb2702\AndroidManifest.xml:26:9-29:52
+	android:screenOrientation
+		ADDED from [cn.finalteam:galleryfinal:1.4.8.7] C:\Users\liuju\.gradle\caches\transforms-1\files-1.1\galleryfinal-1.4.8.7.aar\7c116302c1bfda801aa21832d6fb2702\AndroidManifest.xml:29:13-49
+	android:configChanges
+		ADDED from [cn.finalteam:galleryfinal:1.4.8.7] C:\Users\liuju\.gradle\caches\transforms-1\files-1.1\galleryfinal-1.4.8.7.aar\7c116302c1bfda801aa21832d6fb2702\AndroidManifest.xml:28:13-83
+	android:name
+		ADDED from [cn.finalteam:galleryfinal:1.4.8.7] C:\Users\liuju\.gradle\caches\transforms-1\files-1.1\galleryfinal-1.4.8.7.aar\7c116302c1bfda801aa21832d6fb2702\AndroidManifest.xml:27:13-71
+activity#cn.finalteam.galleryfinal.PhotoPreviewActivity
+ADDED from [cn.finalteam:galleryfinal:1.4.8.7] C:\Users\liuju\.gradle\caches\transforms-1\files-1.1\galleryfinal-1.4.8.7.aar\7c116302c1bfda801aa21832d6fb2702\AndroidManifest.xml:30:9-33:52
+	android:screenOrientation
+		ADDED from [cn.finalteam:galleryfinal:1.4.8.7] C:\Users\liuju\.gradle\caches\transforms-1\files-1.1\galleryfinal-1.4.8.7.aar\7c116302c1bfda801aa21832d6fb2702\AndroidManifest.xml:33:13-49
+	android:configChanges
+		ADDED from [cn.finalteam:galleryfinal:1.4.8.7] C:\Users\liuju\.gradle\caches\transforms-1\files-1.1\galleryfinal-1.4.8.7.aar\7c116302c1bfda801aa21832d6fb2702\AndroidManifest.xml:32:13-83
+	android:name
+		ADDED from [cn.finalteam:galleryfinal:1.4.8.7] C:\Users\liuju\.gradle\caches\transforms-1\files-1.1\galleryfinal-1.4.8.7.aar\7c116302c1bfda801aa21832d6fb2702\AndroidManifest.xml:31:13-74
+uses-permission#android.permission.GET_TASKS
+ADDED from [cn.finalteam:toolsfinal:1.1.5] C:\Users\liuju\.gradle\caches\transforms-1\files-1.1\toolsfinal-1.1.5.aar\3fc5a4d72ebf4efab2561460ec21e58e\AndroidManifest.xml:22:5-68
+	android:name
+		ADDED from [cn.finalteam:toolsfinal:1.1.5] C:\Users\liuju\.gradle\caches\transforms-1\files-1.1\toolsfinal-1.1.5.aar\3fc5a4d72ebf4efab2561460ec21e58e\AndroidManifest.xml:22:22-65
+uses-permission#android.permission.CALL_PHONE
+ADDED from [cn.finalteam:toolsfinal:1.1.5] C:\Users\liuju\.gradle\caches\transforms-1\files-1.1\toolsfinal-1.1.5.aar\3fc5a4d72ebf4efab2561460ec21e58e\AndroidManifest.xml:26:5-69
+	android:name
+		ADDED from [cn.finalteam:toolsfinal:1.1.5] C:\Users\liuju\.gradle\caches\transforms-1\files-1.1\toolsfinal-1.1.5.aar\3fc5a4d72ebf4efab2561460ec21e58e\AndroidManifest.xml:26:22-66

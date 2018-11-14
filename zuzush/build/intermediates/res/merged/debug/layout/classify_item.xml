@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="44dp">
+    <TextView
+        android:id="@+id/text_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="母婴类"
+        android:paddingLeft="@dimen/normal_leftMargin"
+        android:textSize="@dimen/textHintSize"
+        android:gravity="center_vertical"
+        android:textColor="@color/top_bar_textColor" />
+</LinearLayout>
